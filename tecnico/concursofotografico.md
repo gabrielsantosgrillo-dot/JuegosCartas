@@ -1,5 +1,5 @@
 #  Manual Técnico: Plataforma de Concurso Fotográfico
-
+Desarrollado por: Gabriel Santos Grillo
 Este documento detalla la arquitectura y los procedimientos de despliegue y mantenimiento de la aplicación.
 
 ## 1. Tecnológia
