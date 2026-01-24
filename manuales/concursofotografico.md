@@ -1,7 +1,7 @@
 #  Manual de Usuario: Plataforma "Concurso Fotográfico"
 
 Bienvenido a la guía oficial de la aplicación de **Concurso Fotográfico**.
-Es una plataforma de Gestión de Concursos Visuales. Esta aplicación versátil ha sido diseñada para transformar cualquier evento competitivo en una experiencia interactiva en tiempo real. Gracias a su sistema dinámico de categorías y votación ponderada, permite a los participantes subir sus creaciones, al público valorar la calidad mediante estrellas y a los administradores supervisar el certamen con total seguridad."
+Es una plataforma de Gestión de Concursos Visuales. Esta aplicación versátil ha sido diseñada para transformar cualquier evento competitivo en una experiencia interactiva en tiempo real. Gracias a su sistema dinámico de categorías y votación ponderada, permite a los participantes subir sus creaciones, al público valorar la calidad mediante estrellas y a los administradores supervisar el certamen con total seguridad.
 
 Ademas de concurso fotográfico puede haber otros ejemplos de uso 
 
