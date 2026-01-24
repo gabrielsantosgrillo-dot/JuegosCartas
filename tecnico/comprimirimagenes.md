@@ -1,10 +1,6 @@
-Aquí tienes la documentación técnica formateada específicamente para GitHub, eliminando todos los iconos y organizando el código en bloques sintácticos para una mejor lectura.
-
----
-
 # Documentación Técnica: Ga-Optimo (Core Engine)
 
-**Arquitectura de Compresión Client-Side 100% Local** **Lead Developer:** Gabriel Santos Grillo
+**Arquitectura de Compresión Client-Side 100% Local** **Desarrollado por:** Gabriel Santos Grillo
 
 ## 1. Resumen de Arquitectura
 
