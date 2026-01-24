@@ -1,4 +1,4 @@
-# Documentación Técnica: Ga-Optimo (Core Engine)
+# Documentación Técnica: Ga-Optimo 
 
 **Arquitectura de Compresión Client-Side 100% Local** **Desarrollado por:** Gabriel Santos Grillo
 
