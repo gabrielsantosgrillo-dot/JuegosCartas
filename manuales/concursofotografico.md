@@ -48,7 +48,7 @@ El administrador puede configurar dos modos:
 
 ---
 
-## 4. 🏆 Ranking y Resultados
+## 4. Ranking y Resultados
 La sección de **Ranking** muestra la clasificación en tiempo real.
 
 * **Criterio de Victoria:** Las fotos se ordenan primero por su **Puntuación Media** (estrellas) y, en caso de empate, por el **Número Total de Votos**.
@@ -86,4 +86,4 @@ Para acceder, pulsa en el botón **"Administrador"** e introduce la contraseña.
 * **Error de Código:** Las mayúsculas y minúsculas no importan, el sistema lo corrige automáticamente.
 
 ---
-_Manual generado para el sistema de gestión de concursos fotográficos v3.0_
+
