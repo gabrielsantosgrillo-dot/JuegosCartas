@@ -47,7 +47,7 @@ La aplicación es una plataforma multi-concurso. Esto significa que bajo una mis
 2. Verás una cuadrícula con las categorías disponibles (ej: Catedral, Puerto, Libre, etc.).
 3. Pulsa sobre el **icono de la cámara** en la categoría donde quieras participar.
 4. Selecciona la foto de tu galería o haz una foto en el momento.
-5. **🚀 Optimización Automática:** No te preocupes por el tamaño. La aplicación reduce el peso y ajusta la calidad automáticamente para que la subida sea instantánea sin agotar tus datos.
+5. ** Optimización Automática:** No te preocupes por el tamaño. La aplicación reduce el peso y ajusta la calidad automáticamente para que la subida sea instantánea sin agotar tus datos.
 6. Si deseas cambiar una foto ya subida, pulsa en **"Cambiar Foto"** sobre la miniatura.
 
 ---
