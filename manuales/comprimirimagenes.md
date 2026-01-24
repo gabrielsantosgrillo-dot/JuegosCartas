@@ -1,7 +1,3 @@
-Aquí tienes el contenido formateado específicamente para un archivo `.md` (Markdown) de GitHub, eliminando todos los iconos y emojis para mantener un estilo técnico y limpio.
-
----
-
 # Manual de Usuario: Ga-Optimo
 
 **Compresión Profesional 100% Local** **Desarrollado por Gabriel Santos Grillo**
@@ -66,4 +62,3 @@ Para disfrutar de la función de elección de directorio, se recomienda utilizar
 
 ---
 
-*© 2026 Gabriel Santos Grillo - Tecnología para un mundo más privado.*
