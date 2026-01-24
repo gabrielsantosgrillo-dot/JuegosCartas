@@ -1,6 +1,21 @@
 #  Manual de Usuario: Plataforma "Concurso Fotográfico"
 
-Bienvenido a la guía oficial de la aplicación de **Concurso Fotográfico**. Esta plataforma ha sido diseñada para gestionar eventos fotográficos en tiempo real, permitiendo a los participantes subir sus obras, al público votar por sus favoritas y a los administradores gestionar todo el proceso con total seguridad.
+Bienvenido a la guía oficial de la aplicación de **Concurso Fotográfico**.
+Bienvenido a la plataforma de Gestión de Concursos Visuales. Esta aplicación versátil ha sido diseñada para transformar cualquier evento competitivo en una experiencia interactiva en tiempo real. Gracias a su sistema dinámico de categorías y votación ponderada, permite a los participantes subir sus creaciones, al público valorar la calidad mediante estrellas y a los administradores supervisar el certamen con total seguridad."
+
+Ademas de concurso fotográfico puede haber otros ejemplos de uso 
+
+-Ruta de la Tapa / Gastronomía: * Categorías: "Tapa Tradicional", "Tapa Innovadora", "Postres".
+Uso: Los clientes escanean el código del restaurante, ven el plato y lo votan tras probarlo.
+-Concursos de Disfraces o Cosplay:
+Categorías: "Individual", "Grupal", "Infantil".
+Uso: El público vota desde sus asientos mientras los participantes desfilan.
+-Certámenes de Pintura Rápida o Manualidades:
+Uso: Al finalizar el tiempo de creación, se suben las fotos de las obras y el jurado (o el público) vota digitalmente para evitar recuentos manuales.
+-Escaparatismo o Decoración Navideña:
+Uso: Los vecinos pasean por el barrio y votan la mejor fachada o el mejor escaparate a través de su móvil.
+-Presentaciones de Proyectos:
+Uso: Los alumnos suben una captura de su presentación y sus compañeros valoran la claridad o la originalidad.
 
 ---
 
