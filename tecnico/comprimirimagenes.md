@@ -87,6 +87,4 @@ Ga-Optimo puede desplegarse como un sitio estático puro.
 
 Para actualizar dependencias, se utiliza el sistema de importación basado en ESM en el archivo `index.html`. No requiere una fase de compilación (Build step) compleja si se mantiene la arquitectura de módulos actuales.
 
----
 
-**¿Te gustaría que añadiera una sección sobre cómo manejar los límites de memoria del navegador al procesar archivos muy grandes?**
