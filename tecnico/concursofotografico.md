@@ -4,33 +4,33 @@
 ---
 
 ## 1.  Resumen 
-**Concurso Fotográfico** es una Single Page Application (SPA)  construida sobre el stack **MERN** (MongoDB, Express/Vercel, React, Node). La plataforma gestiona de forma asíncrona la captura de imágenes, el procesamiento en el lado del cliente, el almacenamiento en la nube y la sincronización de datos en tiempo real.
+**Concurso Fotográfico** es una aplicación de página única (SPA)  construida sobre el stack **MERN** (MongoDB, Express/Vercel, React, Node). La plataforma gestiona de forma asíncrona la captura de imágenes, el procesamiento en el lado del cliente, el almacenamiento en la nube y la sincronización de datos en tiempo real.
 
 ---
 
-## 2.  Tecnológia
+## 2.  Tecnología
 
-### 2.1. Frontend (Client Side)
+### 2.1. Frontend (lado cliente)
 * **Framework:** React 19.0.
-* **Routing:** React Router DOM v7 (HashRouter para compatibilidad con hosting estático).
+* **Routing:** React Router DOM v7 (HashRouter para máxima compatibilidad).
 * **Estilos:** Tailwind CSS (Arquitectura basada en utilidades).
 * **Iconografía:** Lucide React.
 * **Estado Global:** React Context API (`AppContext`).
-* **Persistencia Local:** Browser LocalStorage.
+* **Persistencia Local:**  LocalStorage del navegador.
 
-### 2.2. Backend (Serverless Layer)
+### 2.2. Backend (Capa Serverless)
 * **Entorno de Ejecución:** Vercel Serverless Functions (Node.js).
 * **API:** Arquitectura RESTful sobre endpoints individuales en `/api`.
-* **Drivers:** MongoDB Native Driver para Node.js.
+* **Drivers:** Driver nativo de MongoDB para Node.js.
 
 ### 2.3. Infraestructura y Almacenamiento
 * **Base de Datos:** MongoDB Atlas (NoSQL).
 * **Gestión de Medios:** Cloudinary API v2.
-* **Hosting:** Vercel Edge Network.
+* **Hosting:** Red perimetral (Edge Network) de Vercel.
 
 ---
 
-## 3. 📊 Arquitectura de Datos (Modelos NoSQL)
+## 3.  Arquitectura de Datos (Modelos NoSQL)
 
 ### 3.1. Colección: `config`
 Almacena la configuración dinámica de cada concurso instanciado.
@@ -39,7 +39,7 @@ Almacena la configuración dinámica de cada concurso instanciado.
   contestCode: string;         // PK - Identificador único del concurso
   title: string;               // Título visual
   subtitle: string;            // Subtítulo visual
-  showAuthors: boolean;        // Flag de privacidad
+  showAuthors: boolean;        // Identificador de privacidad
   maxPhotosPerGallery: number; // Límite de negocio
   galleries: Array<{name: string, visible: boolean}>;
   adminPassword: string;       // Credencial de acceso
@@ -84,15 +84,16 @@ El flujo de carga está diseñado para minimizar la latencia y el consumo de anc
 
 El cálculo del rating se realiza de forma atómica en el endpoint `/api/votes.ts`.
 
-* **Algoritmo:** `(Σ votos actuales + nuevo voto) / (count + 1)`.
+* **Algoritmo:** `(Σ votos actuales + nuevo voto) / (total de votos + 1)`.
 * **Validación:** Se verifica el par `photoId + deviceId` para evitar duplicados.
 
 ### 5.2. Ranking Dinámico
 
-Computado en el frontend mediante `useMemo`. Prioridad:
+Calculado en el frontend mediante el hook useMemo. El orden de prioridad es:
 
-1. **Average Rating** (Descendente).
-2. **Vote Count** (Descendente - Criterio de desempate).
+Promedio de Estrellas (Descendente).
+
+Cantidad de Votos (Descendente - Criterio de desempate).
 
 ---
 
