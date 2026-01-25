@@ -53,21 +53,6 @@ Acceso Manual: Si accedes a la URL base, el sistema te solicitará el Código de
 
 ---
 
-Aquí tienes el texto formateado en Markdown, optimizado específicamente para que se vea profesional en un archivo README.md o en la Wiki de tu repositorio de GitHub. He añadido iconos (emojis) para que sea más escaneable y visual.
-
-📸 MANUAL DE USUARIO: PHOTO CONTEST PRO 2026
-Guía Completa de Participación, Votación y Administración
-
-1.  Introducción
-Bienvenido a Photo Contest Pro, la plataforma de vanguardia diseñada para capturar la esencia visual de eventos, viajes y expediciones fotográficas. Esta herramienta utiliza tecnología de procesamiento en la nube y algoritmos de ranking en tiempo real para ofrecer una experiencia de competición justa, rápida y estéticamente superior.
-
-2.  Acceso al Concurso
-La plataforma es privada y requiere una "Llave de Acceso" (Código del Concurso).
-
-Acceso Directo (Recomendado): Si has recibido un enlace con el formato .../?code=TU_CODIGO, el sistema te reconocerá automáticamente. No necesitas escribir nada; entrarás directamente a la interfaz principal.
-
-Acceso Manual: Si accedes a la URL base, el sistema te solicitará el Código del Concurso (ej. MALAGA2025). Introdúcelo en mayúsculas para desbloquear las funcionalidades.
-
 3.  Identidad y Perfil de Artista
 Antes de interactuar, el sistema necesita saber quién eres.
 
@@ -132,7 +117,7 @@ Enlace de Invitación: Genera un enlace único para que los invitados entren sin
 
 Moderación: Capacidad de eliminar cualquier foto que incumpla las normas.
 
-9. Privacidad y Seguridad Técnica
+9.  Privacidad y Seguridad Técnica
 Nube Privada: Imágenes almacenadas en servidores cifrados de Cloudinary.
 
 Almacenamiento Local: Uso de memoria de navegador para persistencia de sesión.
@@ -145,6 +130,5 @@ Calidad sobre Cantidad: Una foto mediocre puede bajar tu promedio en el ranking.
 Uso de Datos: Participa tranquilo; la compresión activa protege tu tarifa de datos.
 
 Compatibilidad: Optimizado para Chrome, Safari y Samsung Internet.
-
 ---
 
