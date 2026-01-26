@@ -3,216 +3,162 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gabriel Santos Grillo - Binary Matrix</title>
+    <title>Gabriel Santos Grillo - Binary Matrix Loop</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            background: #000; 
+            overflow: hidden; 
+            font-family: 'Courier New', monospace; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            min-height: 100vh; 
         }
-
-        body {
-            background: #000;
-            overflow: hidden;
-            font-family: 'Courier New', monospace;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-
-        canvas {
-            display: block;
-            background: #000;
-            width: 100%;
-            height: 300px;
-            max-width: 1200px;
-        }
+        canvas { display: block; background: #000; width: 100%; height: 300px; max-width: 1200px; }
     </style>
 </head>
 <body>
     <canvas id="matrix"></canvas>
-
     <script>
-        function textToBinary(text) {
-            return text.split('').map(char => {
-                return char.charCodeAt(0).toString(2).padStart(8, '0');
-            }).join('');
-        }
-
         const canvas = document.getElementById('matrix');
         const ctx = canvas.getContext('2d');
-
         canvas.width = 1200;
         canvas.height = 300;
-
         const fontSize = 16;
         const columns = Math.floor(canvas.width / fontSize);
+        const binary = '01';
 
-        // Nombres en binario
-        const gabrielBinary = textToBinary("GABRIEL");
-        const santosBinary = textToBinary("SANTOS");
-        const grilloBinary = textToBinary("GRILLO");
-
-        // Calcular posiciones centradas para todos los nombres
-        // GABRIEL = 7 letras = 56 chars binarios
-        // SANTOS = 6 letras = 48 chars binarios  
-        // GRILLO = 6 letras = 48 chars binarios
-        
-        const gabrielLen = gabrielBinary.length;
-        const santosLen = santosBinary.length;
-        const grilloLen = grilloBinary.length;
-        
-        const namePositions = {
-            gabriel: { 
-                y: 5,
-                startCol: Math.floor((columns - gabrielLen) / 2),
-                chars: gabrielBinary.split(''),
-                startTime: 1000
-            },
-            santos: { 
-                y: 10,
-                startCol: Math.floor((columns - santosLen) / 2),
-                chars: santosBinary.split(''),
-                startTime: 3000
-            },
-            grillo: { 
-                y: 15,
-                startCol: Math.floor((columns - grilloLen) / 2),
-                chars: grilloBinary.split(''),
-                startTime: 5000
-            }
-        };
-
-        // Estado de las gotas
-        const drops = [];
-        const specialDrops = [];
-        const fixedChars = [];
-
-        for (let i = 0; i < columns; i++) {
-            drops[i] = Math.random() * -100;
+        function textToBinary(text) {
+            return text.split('').map(char => char.charCodeAt(0).toString(2).padStart(8, '0')).join('');
         }
 
-        const binary = '01';
-        let animationTime = 0;
+        // Variables de estado globales
+        let drops, specialDrops, fixedChars, eraserDrops, allCharsFixed, allCharsFixedTime, animationTime, resetTriggered;
 
-        // Crear gotas especiales para los nombres de forma aleatoria
-        function createSpecialDrops() {
+        function init() {
+            // Reiniciar/Inicializar todas las variables
+            drops = [];
+            specialDrops = [];
+            fixedChars = [];
+            eraserDrops = [];
+            allCharsFixed = false;
+            allCharsFixedTime = 0;
+            animationTime = 0;
+            resetTriggered = false;
+
+            for (let i = 0; i < columns; i++) {
+                drops[i] = Math.random() * -100;
+            }
+
+            const namePositions = {
+                gabriel: { y: 5, startCol: Math.floor((columns - 56) / 2), chars: textToBinary("GABRIEL").split('') },
+                santos: { y: 10, startCol: Math.floor((columns - 48) / 2), chars: textToBinary("SANTOS").split('') },
+                grillo: { y: 15, startCol: Math.floor((columns - 48) / 2), chars: textToBinary("GRILLO").split('') }
+            };
+
             const allDrops = [];
-            
-            // Recopilar todos los caracteres de todos los nombres
             Object.keys(namePositions).forEach(name => {
                 const pos = namePositions[name];
                 pos.chars.forEach((char, index) => {
                     allDrops.push({
-                        char: char,
-                        col: pos.startCol + index,
-                        targetY: pos.y,
-                        currentY: Math.random() * -100 - 50,
-                        speed: 0.6 + Math.random() * 0.6,
-                        startTime: 0,
-                        stopped: false,
-                        name: name
+                        char: char, col: pos.startCol + index, targetY: pos.y,
+                        currentY: Math.random() * -100 - 50, speed: 0.6 + Math.random() * 0.6,
+                        startTime: 500 + (allDrops.length * 80) + Math.random() * 200,
+                        stopped: false
                     });
                 });
             });
-            
-            // Mezclar aleatoriamente
-            for (let i = allDrops.length - 1; i > 0; i--) {
-                const j = Math.floor(Math.random() * (i + 1));
-                [allDrops[i], allDrops[j]] = [allDrops[j], allDrops[i]];
-            }
-            
-            // Asignar tiempos de inicio aleatorios espaciados
-            allDrops.forEach((drop, index) => {
-                drop.startTime = 500 + (index * 80) + Math.random() * 200;
-                specialDrops.push(drop);
-            });
+            specialDrops = allDrops;
         }
 
-        createSpecialDrops();
+        function createEraserDrops() {
+            const allFixedPositions = [...fixedChars];
+            allFixedPositions.forEach((fc, index) => {
+                eraserDrops.push({
+                    col: fc.col, targetY: fc.y, currentY: -5, speed: 0.5 + Math.random() * 0.5,
+                    startTime: allCharsFixedTime + 2000 + (index * 40),
+                    erasing: false, erased: false, targetChar: fc
+                });
+            });
+        }
 
         function draw() {
             animationTime += 33;
-
             ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
             ctx.fillRect(0, 0, canvas.width, canvas.height);
-
             ctx.font = fontSize + 'px monospace';
 
-            // Dibujar caracteres fijos (ya llegaron a su posición)
+            // 1. Lógica de fijación de nombres
+            if (!allCharsFixed && fixedChars.length === specialDrops.length) {
+                allCharsFixed = true;
+                allCharsFixedTime = animationTime;
+                createEraserDrops();
+            }
+
+            // 2. Dibujar caracteres fijos o en proceso de borrado
             fixedChars.forEach(fc => {
-                ctx.fillStyle = '#fff';
-                ctx.shadowBlur = 20;
-                ctx.shadowColor = '#0f0';
-                ctx.fillText(fc.char, fc.col * fontSize, fc.y * fontSize);
-                ctx.shadowBlur = 0;
+                if (!fc.erased && !fc.beingErased) {
+                    ctx.fillStyle = '#fff';
+                    ctx.shadowBlur = 15; ctx.shadowColor = '#0f0';
+                    ctx.fillText(fc.char, fc.col * fontSize, fc.y * fontSize);
+                    ctx.shadowBlur = 0;
+                } else if (fc.beingErased && !fc.erased) {
+                    ctx.fillStyle = '#0f0';
+                    ctx.fillText(fc.char, fc.col * fontSize, fc.erasingY * fontSize);
+                }
             });
 
-            // Dibujar gotas normales
+            // 3. Gotas de lluvia normales
             for (let i = 0; i < drops.length; i++) {
-                // Verificar si esta columna tiene una gota especial activa
-                const hasSpecialDrop = specialDrops.some(sd => 
-                    sd.col === i && 
-                    !sd.stopped && 
-                    animationTime >= sd.startTime &&
-                    Math.abs(sd.currentY - drops[i]) < 5
-                );
-
-                if (!hasSpecialDrop) {
-                    const text = binary[Math.floor(Math.random() * binary.length)];
-                    
-                    const brightness = Math.random();
-                    if (brightness > 0.95) {
-                        ctx.fillStyle = '#fff';
-                    } else if (brightness > 0.7) {
-                        ctx.fillStyle = '#0f0';
-                    } else {
-                        ctx.fillStyle = '#0a0';
-                    }
-
-                    ctx.fillText(text, i * fontSize, drops[i] * fontSize);
-                }
-
-                if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
-                    drops[i] = 0;
-                }
-
+                ctx.fillStyle = Math.random() > 0.95 ? '#fff' : '#0a0';
+                ctx.fillText(binary[Math.floor(Math.random() * 2)], i * fontSize, drops[i] * fontSize);
+                if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) drops[i] = 0;
                 drops[i]++;
             }
 
-            // Dibujar y actualizar gotas especiales
+            // 4. Gotas especiales (formando nombres)
             specialDrops.forEach(sd => {
-                if (animationTime < sd.startTime) return;
+                if (animationTime < sd.startTime || sd.stopped) return;
+                ctx.fillStyle = '#fff';
+                ctx.fillText(sd.char, sd.col * fontSize, sd.currentY * fontSize);
+                sd.currentY += sd.speed;
+                if (sd.currentY >= sd.targetY) {
+                    sd.stopped = true;
+                    fixedChars.push({ char: sd.char, col: sd.col, y: sd.targetY, erased: false, beingErased: false });
+                }
+            });
 
-                if (!sd.stopped) {
-                    // Efecto de brillo más intenso
-                    ctx.fillStyle = '#fff';
-                    ctx.shadowBlur = 30;
-                    ctx.shadowColor = '#0ff';
-                    ctx.fillText(sd.char, sd.col * fontSize, sd.currentY * fontSize);
-                    ctx.shadowBlur = 0;
-
-                    sd.currentY += sd.speed;
-
-                    // Verificar si llegó a su posición
-                    if (sd.currentY >= sd.targetY) {
-                        sd.stopped = true;
-                        fixedChars.push({
-                            char: sd.char,
-                            col: sd.col,
-                            y: sd.targetY
-                        });
+            // 5. Gotas borradoras y REINICIO
+            let activeErasers = 0;
+            eraserDrops.forEach(ed => {
+                if (animationTime < ed.startTime || ed.erased) return;
+                activeErasers++;
+                if (!ed.erasing) {
+                    ed.currentY += ed.speed;
+                    if (ed.currentY >= ed.targetY) {
+                        ed.erasing = true;
+                        ed.targetChar.beingErased = true;
+                        ed.targetChar.erasingY = ed.targetY;
+                    }
+                } else {
+                    ed.targetChar.erasingY += ed.speed;
+                    if (ed.targetChar.erasingY * fontSize > canvas.height) {
+                        ed.erased = true;
+                        ed.targetChar.erased = true;
                     }
                 }
             });
+
+            // 6. Si ya no hay borradores activos y todo se borró, esperar 5 seg y reiniciar
+            if (allCharsFixed && activeErasers === 0 && !resetTriggered) {
+                resetTriggered = true;
+                setTimeout(init, 5000); // 5000ms = 5 segundos
+            }
         }
 
+        init();
         setInterval(draw, 33);
-
-        window.addEventListener('resize', () => {
-            // Banner fijo, no necesita resize
-        });
     </script>
 </body>
 </html>
