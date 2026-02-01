@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { X, ExternalLink, Code, GraduationCap, Gamepad2, Briefcase, Rocket, ChevronRight, Globe, Github } from 'lucide-react';
 
@@ -7,7 +6,10 @@ interface ProjectsModalProps {
   onClose: () => void;
 }
 
-const ProjectsModal: React.FC<ProjectsModalProps> = ({ isOpen, onClose }) => {
+// CAMBIO 1: Usamos 'export default function' directamente como pide Studio IA
+export default function ProjectsModal({ isOpen, onClose }: ProjectsModalProps) {
+  
+  // Si no está abierto, no renderizamos nada
   if (!isOpen) return null;
 
   const projectCategories = [
@@ -88,6 +90,7 @@ const ProjectsModal: React.FC<ProjectsModalProps> = ({ isOpen, onClose }) => {
   ];
 
   return (
+    // Backdrop con z-index alto para asegurar que se vea sobre el otro proyecto
     <div className="fixed inset-0 z-[300] flex items-center justify-center p-4 bg-slate-950/95 backdrop-blur-md">
       <div className="bg-slate-900 border border-amber-900/40 w-full max-w-4xl rounded-[2.5rem] shadow-2xl overflow-hidden flex flex-col max-h-[90vh] animate-in slide-in-from-bottom-4 duration-300">
         
@@ -102,7 +105,12 @@ const ProjectsModal: React.FC<ProjectsModalProps> = ({ isOpen, onClose }) => {
               <p className="text-[10px] text-amber-600 font-black uppercase tracking-widest">Gabriel Santos Grillo • Desarrollador</p>
             </div>
           </div>
-          <button onClick={onClose} className="p-2 hover:bg-slate-800 rounded-full transition-colors text-slate-400 hover:text-amber-500">
+          {/* Botón de cierre conectado a la prop onClose */}
+          <button 
+            onClick={onClose} 
+            className="p-2 hover:bg-slate-800 rounded-full transition-colors text-slate-400 hover:text-amber-500 cursor-pointer"
+            aria-label="Cerrar modal"
+          >
             <X className="w-8 h-8" />
           </button>
         </div>
@@ -181,6 +189,4 @@ const ProjectsModal: React.FC<ProjectsModalProps> = ({ isOpen, onClose }) => {
       </div>
     </div>
   );
-};
-
-export default ProjectsModal;
+}
