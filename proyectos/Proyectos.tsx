@@ -1,21 +1,31 @@
 import React from 'react';
-import { X, ExternalLink, Code, GraduationCap, Gamepad2, Briefcase, Rocket, ChevronRight, Globe, Github } from 'lucide-react';
+
+// --- ICONOS SVG INTEGRADOS (Para no depender de librerías externas) ---
+const Icons = {
+  X: () => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 6 6 18"/><path d="m6 6 18 12"/></svg>,
+  ExternalLink: () => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>,
+  Briefcase: () => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="20" height="14" x="2" y="7" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>,
+  GraduationCap: () => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>,
+  Gamepad2: () => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="6" x2="10" y1="12" y2="12"/><line x1="8" x2="8" y1="10" y2="14"/><line x1="15" x2="15.01" y1="13" y2="13"/><line x1="18" x2="18.01" y1="11" y2="11"/><rect width="20" height="12" x="2" y="6" rx="2"/></svg>,
+  Rocket: () => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.1 4-2 4-2"/><path d="M12 15v5s3.03-.55 4-2c1.1-1.62 2-4 2-4"/></svg>,
+  Github: () => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0 3-1.5 5 2.5 5 2.5 5 4 10 1 2 2.5 0 1 0 0-1.5 1.5 0 0 0-2.5 0c-.8 0-1.6.2-2.3.6C12.7 1.3 11.4 1.3 10.7 2.1c-.7-.4-1.5-.6-2.3-.6-.6 0-1.5 0-2.5.5-3 1.5-1 4.5-1 4.5.28 1.15.28 2.35 0 3.5-.73 1.02-1.08 2.25-1 3.5 0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>,
+  ChevronRight: () => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+};
 
 interface ProjectsModalProps {
   isOpen: boolean;
   onClose: () => void;
 }
 
-// CAMBIO 1: Usamos 'export default function' directamente como pide Studio IA
-export default function ProjectsModal({ isOpen, onClose }: ProjectsModalProps) {
+// SOLUCIÓN BLINDADA: Exportación directa y sin dependencias externas
+export default function Proyectos({ isOpen, onClose }: ProjectsModalProps) {
   
-  // Si no está abierto, no renderizamos nada
   if (!isOpen) return null;
 
   const projectCategories = [
     {
       title: "APLICACIONES DE GESTIÓN Y HERRAMIENTAS TÉCNICAS",
-      icon: <Briefcase className="w-5 h-5 text-amber-500" />,
+      icon: <span className="w-5 h-5 text-amber-500 flex items-center justify-center"><Icons.Briefcase /></span>,
       projects: [
         {
           id: 1,
@@ -35,7 +45,7 @@ export default function ProjectsModal({ isOpen, onClose }: ProjectsModalProps) {
     },
     {
       title: "APLICACIONES EDUCATIVAS / GUÍAS DIGITALES",
-      icon: <GraduationCap className="w-5 h-5 text-amber-500" />,
+      icon: <span className="w-5 h-5 text-amber-500 flex items-center justify-center"><Icons.GraduationCap /></span>,
       projects: [
         {
           id: 4,
@@ -48,7 +58,7 @@ export default function ProjectsModal({ isOpen, onClose }: ProjectsModalProps) {
     },
     {
       title: "APLICACIONES DE ENTRETENIMIENTO",
-      icon: <Gamepad2 className="w-5 h-5 text-amber-500" />,
+      icon: <span className="w-5 h-5 text-amber-500 flex items-center justify-center"><Icons.Gamepad2 /></span>,
       projects: [
         {
           id: 5,
@@ -90,28 +100,25 @@ export default function ProjectsModal({ isOpen, onClose }: ProjectsModalProps) {
   ];
 
   return (
-    // Backdrop con z-index alto para asegurar que se vea sobre el otro proyecto
     <div className="fixed inset-0 z-[300] flex items-center justify-center p-4 bg-slate-950/95 backdrop-blur-md">
       <div className="bg-slate-900 border border-amber-900/40 w-full max-w-4xl rounded-[2.5rem] shadow-2xl overflow-hidden flex flex-col max-h-[90vh] animate-in slide-in-from-bottom-4 duration-300">
         
         {/* Header */}
         <div className="p-6 border-b border-amber-900/20 flex justify-between items-center bg-slate-800/20">
           <div className="flex items-center gap-4">
-            <div className="p-3 bg-amber-600/20 rounded-2xl">
-              <Rocket className="w-6 h-6 text-amber-500" />
+            <div className="p-3 bg-amber-600/20 rounded-2xl text-amber-500">
+               <span className="block w-6 h-6"><Icons.Rocket /></span>
             </div>
             <div>
               <h2 className="text-xl md:text-2xl font-serif text-amber-50 uppercase tracking-widest">Portafolio de Proyectos</h2>
               <p className="text-[10px] text-amber-600 font-black uppercase tracking-widest">Gabriel Santos Grillo • Desarrollador</p>
             </div>
           </div>
-          {/* Botón de cierre conectado a la prop onClose */}
           <button 
             onClick={onClose} 
             className="p-2 hover:bg-slate-800 rounded-full transition-colors text-slate-400 hover:text-amber-500 cursor-pointer"
-            aria-label="Cerrar modal"
           >
-            <X className="w-8 h-8" />
+             <span className="block w-8 h-8"><Icons.X /></span>
           </button>
         </div>
 
@@ -147,7 +154,7 @@ export default function ProjectsModal({ isOpen, onClose }: ProjectsModalProps) {
                       rel="noopener noreferrer"
                       className="mt-4 flex items-center justify-center gap-2 py-2 bg-amber-600/10 hover:bg-amber-600 text-amber-500 hover:text-slate-950 rounded-xl transition-all text-[10px] font-black uppercase tracking-widest"
                     >
-                      Ver Proyecto <ExternalLink className="w-3 h-3" />
+                      Ver Proyecto <span className="w-3 h-3 block"><Icons.ExternalLink /></span>
                     </a>
                   </div>
                 ))}
@@ -159,8 +166,8 @@ export default function ProjectsModal({ isOpen, onClose }: ProjectsModalProps) {
           <div className="pt-6 border-t border-amber-900/20">
             <div className="bg-amber-600/5 border border-amber-600/20 p-6 rounded-3xl flex flex-col md:flex-row items-center justify-between gap-6">
               <div className="flex items-center gap-4 text-center md:text-left">
-                <div className="p-3 bg-slate-950 rounded-full">
-                  <Github className="w-8 h-8 text-amber-500" />
+                <div className="p-3 bg-slate-950 rounded-full text-amber-500">
+                  <span className="block w-8 h-8"><Icons.Github /></span>
                 </div>
                 <div>
                   <h4 className="text-lg font-serif text-amber-50 uppercase tracking-widest">Mantente Actualizado</h4>
@@ -173,7 +180,7 @@ export default function ProjectsModal({ isOpen, onClose }: ProjectsModalProps) {
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 px-8 py-3 bg-amber-600 hover:bg-amber-500 text-slate-950 font-black rounded-xl transition-all text-[10px] uppercase tracking-[0.2em] shadow-xl whitespace-nowrap"
               >
-                GitHub Profile <ChevronRight className="w-4 h-4" />
+                GitHub Profile <span className="w-4 h-4 block"><Icons.ChevronRight /></span>
               </a>
             </div>
             <p className="mt-4 text-center text-[10px] text-slate-500 font-serif uppercase tracking-widest">
