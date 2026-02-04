@@ -1,13 +1,34 @@
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { PROJECTS, Icons } from './constants';
 import { ProjectCategory } from './types';
 import ProjectCard from './components/ProjectCard';
 import MatrixHeader from './components/MatrixHeader';
 
 const App: React.FC = () => {
-  // Cambio de estado inicial: Ahora inicia en vista PROFESIONAL
   const [view, setView] = useState<'GAMES' | 'PROFESSIONAL'>('PROFESSIONAL');
+
+  // Sistema de detección de enlace directo por Hash (#juegos o #proyectos)
+  useEffect(() => {
+    const handleHashChange = () => {
+      const hash = window.location.hash;
+      if (hash === '#juegos') {
+        setView('GAMES');
+      } else if (hash === '#proyectos') {
+        setView('PROFESSIONAL');
+      }
+    };
+
+    handleHashChange();
+    window.addEventListener('hashchange', handleHashChange);
+    return () => window.removeEventListener('hashchange', handleHashChange);
+  }, []);
+
+  // Función para cambiar vista y actualizar URL automáticamente
+  const updateView = (newView: 'GAMES' | 'PROFESSIONAL') => {
+    setView(newView);
+    window.location.hash = newView === 'GAMES' ? 'juegos' : 'proyectos';
+  };
 
   const filteredProjects = view === 'GAMES' 
     ? PROJECTS.filter(p => p.category === ProjectCategory.ENTERTAINMENT || p.id === 5 || p.id === 6)
@@ -35,17 +56,17 @@ const App: React.FC = () => {
 
       <main className="relative z-10 flex flex-col items-center">
         
-        {/* Navegación de Vistas (Estilo burbuja suave) */}
+        {/* Navegación de Vistas */}
         <nav className="sticky top-6 z-50 mt-6 mb-10 px-4">
           <div className="bg-white/80 backdrop-blur-xl shadow-xl p-1.5 rounded-2xl flex items-center gap-1 border border-slate-200">
             <button 
-              onClick={() => setView('GAMES')}
+              onClick={() => updateView('GAMES')}
               className={`flex items-center gap-2 px-6 py-3 rounded-xl text-[10px] font-black uppercase tracking-widest transition-all ${view === 'GAMES' ? 'bg-sky-500 text-white shadow-lg shadow-sky-200' : 'text-slate-500 hover:bg-slate-50'}`}
             >
               <Icons.Gamepad /> SECCIÓN JUEGOS
             </button>
             <button 
-              onClick={() => setView('PROFESSIONAL')}
+              onClick={() => updateView('PROFESSIONAL')}
               className={`flex items-center gap-2 px-6 py-3 rounded-xl text-[10px] font-black uppercase tracking-widest transition-all ${view === 'PROFESSIONAL' ? 'bg-slate-800 text-white shadow-lg' : 'text-slate-500 hover:bg-slate-50'}`}
             >
               <Icons.Layout /> TODO EL PORTAFOLIO
@@ -55,7 +76,6 @@ const App: React.FC = () => {
 
         <div className="max-w-7xl w-full px-6 py-8 flex flex-col items-center">
           
-          {/* Header Condicional */}
           <header className="text-center mb-16 space-y-4 animate-in fade-in slide-in-from-top-4 duration-700">
             {view === 'GAMES' ? (
               <>
@@ -73,7 +93,7 @@ const App: React.FC = () => {
                   <Icons.Database /> PORTAFOLIO TÉCNICO
                 </div>
                 <h1 className="text-6xl md:text-8xl font-title font-black text-slate-800 tracking-tighter">
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-slate-700 to-slate-900 uppercase">Proyectos</span>
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-slate-700 to-slate-900">PROYECTOS</span>
                 </h1>
                 <p className="text-base text-slate-500 font-medium italic">Documentación detallada de software desarrollado por</p>
               </>
@@ -83,15 +103,10 @@ const App: React.FC = () => {
             </p>
           </header>
 
-          {/* Grid de Proyectos */}
           {view === 'GAMES' ? (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full">
               {filteredProjects.map((project, idx) => (
-                <div 
-                  key={project.id} 
-                  className="animate-in fade-in slide-in-from-bottom-8 duration-500"
-                  style={{ animationDelay: `${idx * 150}ms` }}
-                >
+                <div key={project.id} className="animate-in fade-in slide-in-from-bottom-8 duration-500" style={{ animationDelay: `${idx * 150}ms` }}>
                   <ProjectCard project={project} />
                 </div>
               ))}
@@ -105,9 +120,7 @@ const App: React.FC = () => {
                   <section key={cat} className="animate-in fade-in slide-in-from-bottom-12 duration-700" style={{ animationDelay: `${catIdx * 100}ms` }}>
                     <div className="flex items-center gap-4 mb-12">
                       <div className="w-2 h-8 bg-slate-800 rounded-full"></div>
-                      <h2 className="text-sm font-black text-slate-800 uppercase tracking-[0.3em] flex-shrink-0">
-                        {cat}
-                      </h2>
+                      <h2 className="text-sm font-black text-slate-800 uppercase tracking-[0.3em] flex-shrink-0">{cat}</h2>
                       <div className="h-[1px] flex-grow bg-slate-200"></div>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
@@ -121,7 +134,6 @@ const App: React.FC = () => {
             </div>
           )}
 
-          {/* Footer con Botón Premium de Perfil */}
           <footer className="mt-32 w-full pt-16 border-t border-slate-200 flex flex-col items-center">
             <div className={`glass-card p-12 rounded-[3.5rem] flex flex-col md:flex-row items-center justify-between gap-10 border-2 border-white/50 mb-16 mx-auto w-full transition-all duration-500 ${view === 'PROFESSIONAL' ? 'bg-white' : 'bg-white/60'}`}>
               <div className="flex items-center gap-6 text-center md:text-left flex-1">
@@ -143,14 +155,10 @@ const App: React.FC = () => {
                 className="group relative flex items-center justify-center gap-4 px-12 py-6 font-black rounded-3xl transition-all duration-500 text-sm uppercase tracking-[0.2em] shadow-[0_20px_40px_rgba(0,0,0,0.15)] hover:shadow-[0_25px_50px_rgba(0,0,0,0.25)] hover:-translate-y-1 active:scale-95 overflow-hidden w-full md:w-auto min-w-[300px]"
               >
                 <div className={`absolute inset-0 transition-opacity duration-500 bg-slate-900 group-hover:opacity-90`}></div>
-                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
-
                 <div className="relative z-10 flex items-center gap-3 text-white">
                   <Icons.Github />
                   <span>VER PERFIL COMPLETO</span>
-                  <div className="group-hover:translate-x-1 transition-transform">
-                    <Icons.ChevronRight />
-                  </div>
+                  <Icons.ChevronRight />
                 </div>
               </a>
             </div>
