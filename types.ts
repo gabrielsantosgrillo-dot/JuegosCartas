@@ -9,6 +9,7 @@ export interface Project {
   tech: string;
   category: ProjectCategory;
   image?: string;
+  observations?: string;
 }
 
 export enum ProjectCategory {
