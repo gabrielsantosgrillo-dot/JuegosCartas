@@ -41,6 +41,15 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 4,
+    name: "Explora España",
+    url: "https://exploramapa.vercel.app/",
+    image: "https://raw.githubusercontent.com/gabrielsantosgrillo-dot/JuegosCartas/main/proyectos/mapa.jpg",
+    desc: "Aprende Geografía de España.",
+    tech: "Educación",
+    category: ProjectCategory.EDUCATIONAL
+  },
+  {
+    id: 5,
     name: "Hundir la Flota",
     url: "https://juego-barcos.vercel.app/",
     image: "https://raw.githubusercontent.com/gabrielsantosgrillo-dot/JuegosCartas/main/barcos/barcos.jpg",
@@ -49,16 +58,25 @@ export const PROJECTS: Project[] = [
     category: ProjectCategory.ENTERTAINMENT
   },
   {
-    id: 5,
+    id: 6,
+    name: "Explora Europa",
+    url: "https://gaexploraeuropa.vercel.app/",
+    image: "https://raw.githubusercontent.com/gabrielsantosgrillo-dot/JuegosCartas/main/proyectos/gaexploraeuropa.jpg",
+    desc: "Aprende Geografía de Europa de forma interactiva y divertida.",
+    tech: "Geografía, Educativo",
+    category: ProjectCategory.EDUCATIONAL
+  },
+  {
+    id: 7,
     name: "Ahorcado Personalizable",
     url: "https://ahorcado-personalizable.vercel.app/",
     image: "https://raw.githubusercontent.com/gabrielsantosgrillo-dot/JuegosCartas/main/proyectos/ahorcadopersonalizable.jpg",
     desc: "Adivina palabras con pistas inteligentes. Aprende nuevas definiciones mientras te diviertes.",
     tech: "Educativo, Pistas",
-    category: ProjectCategory.ENTERTAINMENT
+    category: ProjectCategory.EDUCATIONAL
   },
   {
-    id: 6,
+    id: 8,
     name: "Residencia Maestro",
     url: "https://residenciamaestro.vercel.app/",
     image: "https://raw.githubusercontent.com/gabrielsantosgrillo-dot/JuegosCartas/main/RESIDENCIA/LOGO.png",
@@ -67,7 +85,7 @@ export const PROJECTS: Project[] = [
     category: ProjectCategory.ENTERTAINMENT
   },
   {
-    id: 7,
+    id: 9,
     name: "El Impostor",
     url: "#",
     image: "https://raw.githubusercontent.com/gabrielsantosgrillo-dot/JuegosCartas/main/impostor/inicio.jpg",
