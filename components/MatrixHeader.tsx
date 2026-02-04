@@ -1,8 +1,13 @@
 
 import React, { useEffect, useRef } from 'react';
 
-const MatrixHeader: React.FC = () => {
+interface MatrixHeaderProps {
+  theme?: 'GAMES' | 'PROFESSIONAL';
+}
+
+const MatrixHeader: React.FC<MatrixHeaderProps> = ({ theme = 'GAMES' }) => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
+  const isProfessional = theme === 'PROFESSIONAL';
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -11,7 +16,8 @@ const MatrixHeader: React.FC = () => {
     const ctx = canvas.getContext('2d');
     if (!ctx) return;
 
-    canvas.width = 1200;
+    // Ajustar dimensiones
+    canvas.width = window.innerWidth;
     canvas.height = 180;
 
     const fontSize = 14;
@@ -46,6 +52,12 @@ const MatrixHeader: React.FC = () => {
     let allCharsErased = false;
     let animationTime = 0;
     let cycleStartTime = 0;
+
+    // Colores según tema
+    const rainColor = isProfessional ? '#06b6d4' : '#00ff00'; // Cian vs Verde
+    const highlightColor = '#ffffff';
+    const bgColor = isProfessional ? 'rgba(15, 23, 42, 0.05)' : 'rgba(0, 0, 0, 0.05)';
+    const baseBgColor = isProfessional ? '#0f172a' : '#000000';
 
     for (let i = 0; i < columns; i++) {
       drops[i] = Math.random() * -100;
@@ -106,11 +118,11 @@ const MatrixHeader: React.FC = () => {
 
     createSpecialDrops();
 
-    let animationFrameId: number;
+    let animationFrameId: any;
 
     const draw = () => {
       animationTime += 33;
-      ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
+      ctx.fillStyle = bgColor;
       ctx.fillRect(0, 0, canvas.width, canvas.height);
       ctx.font = fontSize + 'px monospace';
 
@@ -122,10 +134,10 @@ const MatrixHeader: React.FC = () => {
 
       fixedChars.forEach(fc => {
         if (!fc.erased && !fc.beingErased) {
-          ctx.fillStyle = '#fff';
+          ctx.fillStyle = highlightColor;
           ctx.fillText(fc.char, fc.col * fontSize, fc.y * fontSize);
         } else if (fc.beingErased) {
-          ctx.fillStyle = '#ccc';
+          ctx.fillStyle = isProfessional ? '#334155' : '#444';
           ctx.fillText(fc.char, fc.col * fontSize, fc.erasingY * fontSize);
         }
       });
@@ -135,7 +147,7 @@ const MatrixHeader: React.FC = () => {
         const isEr = eraserDrops.some(ed => ed.col === i && !ed.erased && animationTime >= ed.startTime && Math.abs(ed.currentY - drops[i]) < 5);
 
         if (!isSp && !isEr) {
-          ctx.fillStyle = Math.random() > 0.9 ? '#fff' : '#0a0';
+          ctx.fillStyle = Math.random() > 0.9 ? highlightColor : rainColor;
           ctx.fillText(binary[Math.floor(Math.random() * 2)], i * fontSize, drops[i] * fontSize);
         }
         if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) drops[i] = 0;
@@ -144,7 +156,7 @@ const MatrixHeader: React.FC = () => {
 
       specialDrops.forEach(sd => {
         if (animationTime < sd.startTime || sd.stopped) return;
-        ctx.fillStyle = '#fff';
+        ctx.fillStyle = highlightColor;
         ctx.fillText(sd.char, sd.col * fontSize, sd.currentY * fontSize);
         sd.currentY += sd.speed;
         if (sd.currentY >= sd.targetY) {
@@ -156,7 +168,7 @@ const MatrixHeader: React.FC = () => {
       eraserDrops.forEach(ed => {
         if (animationTime < ed.startTime || ed.erased) return;
         if (!ed.erasing) {
-          ctx.fillStyle = '#f00';
+          ctx.fillStyle = isProfessional ? '#3b82f6' : '#f00';
           ctx.fillText(binary[Math.floor(Math.random() * 2)], ed.col * fontSize, ed.currentY * fontSize);
           ed.currentY += ed.speed;
           if (ed.currentY >= ed.targetY) {
@@ -178,17 +190,17 @@ const MatrixHeader: React.FC = () => {
         setTimeout(resetCycle, 5000);
       }
 
-      animationFrameId = setTimeout(draw, 33) as any;
+      animationFrameId = setTimeout(draw, 33);
     };
 
     draw();
 
     return () => clearTimeout(animationFrameId);
-  }, []);
+  }, [theme, isProfessional]);
 
   return (
-    <div className="w-full flex justify-center bg-black overflow-hidden shadow-2xl">
-      <canvas ref={canvasRef} className="w-full max-w-[1200px] h-[180px]" />
+    <div className={`w-full flex justify-center overflow-hidden transition-colors duration-700 ${isProfessional ? 'bg-[#0f172a]' : 'bg-black'}`}>
+      <canvas ref={canvasRef} className="w-full h-[180px]" />
     </div>
   );
 };
