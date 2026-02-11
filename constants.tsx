@@ -46,7 +46,7 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 5,
-    name: "Go-Explora España",
+    name: "GA-Explora España",
     url: "https://exploramapa.vercel.app/",
     image: "https://raw.githubusercontent.com/gabrielsantosgrillo-dot/JuegosCartas/main/proyectos/mapa.jpg",
     desc: "Proyecto de ayuda al estudio de Geografía de España orientado a alumnos de 1º ESO mediante la exploración visual.",
@@ -55,7 +55,7 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 6,
-    name: "Go-Explora Europa",
+    name: "GA-Explora Europa",
     url: "https://gaexploraeuropa.vercel.app/",
     image: "https://raw.githubusercontent.com/gabrielsantosgrillo-dot/JuegosCartas/main/proyectos/gaexploraeuropa.jpg",
     desc: "Recurso educativo interactivo para el estudio de la Geografía de Europa (1º ESO) con mecánicas de descubrimiento.",
@@ -102,7 +102,7 @@ export const PROJECTS: Project[] = [
   // SECCIÓN TÉCNICA / OTROS
   {
     id: 14,
-    name: "Ga-Archivos",
+    name: "GA-Archivos",
     url: "https://controlarchivos.vercel.app/",
     image: "https://raw.githubusercontent.com/gabrielsantosgrillo-dot/JuegosCartas/main/controlarchivos/controlarchivos.jpg",
     desc: "Gestión y renombrado masivo de archivos. Privacidad total al funcionar en local, facilitando tareas repetitivas de organización documental.",
@@ -121,7 +121,7 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 2,
-    name: "Ga-Optimo",
+    name: "GA-Optimo",
     url: "https://comprimir-imagenes.vercel.app/",
     image: "https://raw.githubusercontent.com/gabrielsantosgrillo-dot/JuegosCartas/main/proyectos/gaoptimo.jpg",
     desc: "Herramienta web para la compresión de imágenes desarrollada íntegramente con lógica en el lado del cliente.",
