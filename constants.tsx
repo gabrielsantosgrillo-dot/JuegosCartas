@@ -16,7 +16,7 @@ export const Icons = {
 };
 
 export const PROJECTS: Project[] = [
-  // SECCIÓN JUEGOS (Orden solicitado)
+  // SECCIÓN JUEGOS
   {
     id: 8,
     name: "¡No me des la lata!",
@@ -100,6 +100,15 @@ export const PROJECTS: Project[] = [
   },
 
   // SECCIÓN TÉCNICA / OTROS
+  {
+    id: 14,
+    name: "Ga-Archivos",
+    url: "https://controlarchivos.vercel.app/",
+    image: "https://raw.githubusercontent.com/gabrielsantosgrillo-dot/JuegosCartas/main/controlarchivos/controlarchivos.jpg",
+    desc: "Gestión y renombrado masivo de archivos. Privacidad total al funcionar en local, facilitando tareas repetitivas de organización documental.",
+    tech: "File API, Batch Processing, Privacy",
+    category: ProjectCategory.TECHNICAL
+  },
   {
     id: 1,
     name: "Concurso Fotográfico",
