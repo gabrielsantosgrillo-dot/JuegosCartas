@@ -6,7 +6,7 @@
 
 La aplicación está construida bajo una arquitectura **Serverless** y **Client-Side Only**, lo que significa que el **100% del procesamiento ocurre en el navegador del usuario**.
 
-### 🔹 Tecnologías utilizadas
+###  Tecnologías utilizadas
 
 - **Lenguaje:** TypeScript  
   (Tipado fuerte para reducir errores en tiempo de compilación)
@@ -164,5 +164,5 @@ La aplicación está sujeta al sandbox del navegador.
 
 **Gabriel Santos Grillo**
 
-🌐 Portafolio:  
+Portafolio:  
 https://proyectosgabriel.vercel.app
