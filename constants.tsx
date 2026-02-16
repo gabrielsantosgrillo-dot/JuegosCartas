@@ -18,6 +18,15 @@ export const Icons = {
 export const PROJECTS: Project[] = [
   // SECCIÓN JUEGOS
   {
+    id: 15,
+    name: "Inazuma Break: El Código Prohibido",
+    url: "https://inazumabreak.vercel.app/",
+    image: "https://raw.githubusercontent.com/gabrielsantosgrillo-dot/JuegosCartas/main/inazuma/inazuma.jpg",
+    desc: "Experiencia inmersiva de 'hacking' ciber-deportivo. Detén el virus Dark Vector usando un escáner de algoritmos EAN-13 para rescatar leyendas del fútbol atrapadas en códigos de barras.",
+    tech: "EAN-13, Scanning, RPG",
+    category: ProjectCategory.ENTERTAINMENT
+  },
+  {
     id: 8,
     name: "¡No me des la lata!",
     url: "https://nomedeslalata.vercel.app/",
@@ -46,7 +55,7 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 5,
-    name: "GA-Explora España",
+    name: "GA-explora España",
     url: "https://exploramapa.vercel.app/",
     image: "https://raw.githubusercontent.com/gabrielsantosgrillo-dot/JuegosCartas/main/proyectos/mapa.jpg",
     desc: "Proyecto de ayuda al estudio de Geografía de España orientado a alumnos de 1º ESO mediante la exploración visual.",
@@ -102,10 +111,10 @@ export const PROJECTS: Project[] = [
   // SECCIÓN TÉCNICA / OTROS
   {
     id: 14,
-    name: "GA-Archivos",
+    name: "Ga-Archivos",
     url: "https://controlarchivos.vercel.app/",
     image: "https://raw.githubusercontent.com/gabrielsantosgrillo-dot/JuegosCartas/main/controlarchivos/controlarchivos.jpg",
-    desc: "Gestión y renombrado masivo de archivos. Privacidad total al funcionar en local, facilitando tareas repetitivas de organización documental.",
+    desc: "Aplicación web para la gestión y renombrado masivo de archivos. Funciona completamente en local garantizando privacidad total. Permite filtrar por nombre, fecha o tamaño y aplicar cambios masivos.",
     tech: "File API, Batch Processing, Privacy",
     category: ProjectCategory.TECHNICAL
   },
@@ -121,7 +130,7 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 2,
-    name: "GA-Optimo",
+    name: "Ga-Optimo",
     url: "https://comprimir-imagenes.vercel.app/",
     image: "https://raw.githubusercontent.com/gabrielsantosgrillo-dot/JuegosCartas/main/proyectos/gaoptimo.jpg",
     desc: "Herramienta web para la compresión de imágenes desarrollada íntegramente con lógica en el lado del cliente.",
