@@ -64,10 +64,10 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 6,
-    name: "GA-Explora Europa",
-    url: "https://gaexploraeuropa.vercel.app/",
+    name: "GA-Explora Mundo",
+    url: "https://descubremundo.vercel.app/",
     image: "https://raw.githubusercontent.com/gabrielsantosgrillo-dot/JuegosCartas/main/proyectos/gaexploraeuropa.jpg",
-    desc: "Recurso educativo interactivo para el estudio de la Geografía de Europa (1º ESO) con mecánicas de descubrimiento.",
+    desc: "Recurso educativo interactivo para el estudio de la Geografía del Mundo (1º ESO) con mecánicas de descubrimiento.",
     tech: "Educación, Interactividad",
     category: ProjectCategory.EDUCATIONAL
   },
