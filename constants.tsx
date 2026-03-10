@@ -17,6 +17,24 @@ export const Icons = {
 
 export const PROJECTS: Project[] = [
   // SECCIÓN JUEGOS
+   {
+    id: 17,
+    name: "Bingo",
+    url: "https://cantarbingo.vercel.app/",
+    image: "https://raw.githubusercontent.com/gabrielsantosgrillo-dot/JuegosCartas/main/bingo/bingo.png",
+    desc: "Es una reimplementación del clásico juego de Bingo que ofrece dos modalidades distintas: una experiencia individual y un modo multijugador interactivo.",
+    tech: "Juegos",
+    category: ProjectCategory.ENTERTAINMENT
+  },
+  {
+    id: 16,
+    name: "Retro TV",
+    url: "https://tvmundo.vercel.app/",
+    image: "https://raw.githubusercontent.com/gabrielsantosgrillo-dot/JuegosCartas/main/tv/tv.jpg",
+    desc: "reproductor de televisión con una interfaz retro que simula un televisor de tubo. Está diseñada para ofrecer una experiencia nostálgica mientras se visualiza contenido de televisión moderno a través de internet.",
+    tech: "TV",
+    category: ProjectCategory.ENTERTAINMENT
+  },
   {
     id: 15,
     name: "Inazuma Break: El Código Prohibido",
