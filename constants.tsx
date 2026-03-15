@@ -17,6 +17,15 @@ export const Icons = {
 
 export const PROJECTS: Project[] = [
   // SECCIÓN JUEGOS
+  {
+    id: 18,
+    name: "Reto Millón",
+    url: "https://retomillon.vercel.app/",
+    image: "https://raw.githubusercontent.com/gabrielsantosgrillo-dot/JuegosCartas/main/millon/millon.jpg",
+    desc: "Juego de preguntas, los usuarios podrán competir en salas personalizadas o jugar en solitario a través de ocho rondas de dificultad progresiva. El sistema integra más de 4,400 preguntas categorizadas en diversos temas",
+    tech: "Juegos",
+    category: ProjectCategory.ENTERTAINMENT
+  },
    {
     id: 17,
     name: "Bingo",
