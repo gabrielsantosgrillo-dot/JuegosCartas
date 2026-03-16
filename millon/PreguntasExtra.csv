@@ -1,4 +1,5 @@
-﻿Dificultad;Categoría;Pregunta;Respuesta Correcta;Incorrecta 1;Incorrecta 2;Incorrecta 3
+﻿Column1;Column2;Column3;Column4;Column5;Column6;Column7
+Dificultad;Categoría;Pregunta;Respuesta Correcta;Incorrecta 1;Incorrecta 2;Incorrecta 3
 Fácil;Geografía;¿Cuál es el río más largo del mundo?;Amazonas;Nilo;Misisipi;Yangtsé
 Fácil;Ciencia;¿Qué gas necesitan los humanos para respirar?;Oxígeno;Nitrógeno;Hidrógeno;Dióxido de carbono
 Medio;Historia;¿En qué año cayó el Muro de Berlín?;1989;1991;1985;1975
@@ -598,108 +599,108 @@ Fácil;Consumo;¿Qué marca de cereales tiene un tigre llamado Tony?;Kellogg's;N
 Medio;Consumo;¿Qué marca de cuchillas de afeitar es la líder?;Gillette;Wilkinson;Bic;Dollar Shave Club
 Duro;Consumo;¿Qué marca de vodka tiene una botella inspirada en una de medicina?;Absolut;Grey Goose;Smirnoff;Belvedere
 Fácil;Consumo;¿Cuál es la marca de consolas de Nintendo más actual?;Switch;Wii;DS;GameCube
-Fácil;Mecánicas;¿Cómo se llama la tableta que Link usa para sus habilidades?;Piedra Sheikah;Tableta de Pruna;Módulo Zonnan;Espejo Oscuro
-Fácil;Mecánicas;¿Cómo se llama la nueva habilidad para pegar objetos?;Ultramano;Combinación;Infiltración;Retroceso
-Medio;Historia;¿Cuántos años estuvo Link dormido en el Santuario de la Vida?;100 años;50 años;1000 años;10 años
-Medio;Historia;¿Quién es la primera Reina de Hyrule que conoce Zelda?;Sonia;Rauru;Mineru;Impa
-Duro;Localización;¿Cómo se llama el monte donde reside el dragón Naydra corrompido?;Monte Lanayru;Monte Hylia;Pico de la Muerte;Cordillera de Hebra
-Fácil;Enemigos;¿Cómo se llaman los enemigos recurrentes que parecen cerdos?;Bokoblins;Lizalfos;Moblins;Mogmas
-Medio;Mecánicas;¿Qué habilidad permite a Link atravesar techos?;Infiltración;Retroceso;Combinación;Ultramano
-Duro;Lore;¿A qué raza pertenece Rauru, el primer rey de Hyrule?;Zonnan;Hyliano;Sheikah;Aonuma
-Fácil;Localización;¿En qué región se encuentra la Ciudad Gerudo?;Desierto de Gerudo;Sierra de Akkala;Gran Bosque;Necluda
-Medio;Jefes;¿Cuál es la Bestia Divina de la raza Goron?;Vah Rudania;Vah Medoh;Vah Naboris;Vah Ruta
-Duro;Mecánicas;¿Cómo se llaman las raíces que iluminan el subsuelo?;Raíces de luz;Semillas luminosas;Flores aturdidoras;Brotes Kolog
-Fácil;Personajes;¿Cómo se llama el líder de los Kolog?;Obab;Nuez;Paya;Kakariko
-Medio;Historia;¿Qué objeto traga Zelda para convertirse en el Dragón Blanco?;Una piedra secreta;Una lágrima de luz;Un fruto de aura;Una escama de oro
-Duro;Coleccionables;¿Cuántas semillas Kolog hay en total en el juego?;900;500;100;1000
-Fácil;Mecánicas;¿Cómo se llama la energía necesaria para usar artilugios Zonnan?;Batería;Vigor;Magia;Carga ancestral
-Medio;Enemigos;¿Qué monstruo de tres cabezas acecha en puentes y cumbres?;Gleeok;Centaleón;Moldora;Hinox
-Duro;Localización;¿Cómo se llama la isla que te quita todo el equipo al llegar?;Isla de la Prueba;Isla de Evansa;Isla Frontia;Isla de la Decepción
-Fácil;Personajes;¿Cómo se llama el científico Sheikah que vive en Akkala?;Roteno;Pruna;Impa;Kansel
-Medio;Jefes;¿Quién es el jefe final de los dominios de los Orni?;Gidrah;Colgera;Morgos;Vah Medoh
-Duro;Mecánicas;¿Qué ocurre si intentas usar una flecha de fuego en la Montaña de la Muerte?;Explota al instante;No se enciende;Hace más daño;Se apaga
-Fácil;Lore;¿Cómo se llama la espada que Link debe recuperar?;Espada Maestra;Espada de la Fiera Deidad;Mandoble de la Verdad;Daga del Tiempo
-Medio;Localización;¿Cómo se llaman las islas flotantes donde comienza el juego?;Gran isla de los albores;Meseta de los albores;Cielo de Hyrule;Archipiélago Zonnan
-Duro;Personajes;¿Quién es la hermana de Rauru?;Mineru;Sonia;Zelda;Pruna
-Fácil;Mecánicas;¿Qué barra limita la distancia que Link puede correr o escalar?;Vigor;Salud;Mana;Batería
-Medio;Enemigos;¿Cuál es el enemigo más fuerte del mapa (sin ser jefe)?;Centaleón;Guardián;Hinox;Moldora
-Duro;Localización;¿En qué lugar secreto se encuentra la Aldea de los Kolog?;Bosque Perdido;Monte Gólgota;Valle de la Calma;Selva de Farone
-Fácil;Personajes;¿Cómo se llama el jefe de la construcción en Hyrule?;Hudson (Karid);Bolson;Kadeli;Tureli
-Medio;Mecánicas;¿Qué material es esencial para fabricar flechas guiadas?;Ojo de Keese;Ala de Aerocuda;Fruto resplandeciente;Flor bomba
-Duro;Lore;"¿Qué son las ""Lágrimas del Dragón""?";Recuerdos de Zelda;Objetos de curación;Monedas de cambio;Piedras de invocación
-Fácil;Enemigos;¿Qué máquinas disparan láseres y tienen patas mecánicas?;Guardianes;Golems;Octoroks;Wizzrobes
-Medio;Localización;¿Cómo se llama la aldea donde vive Impa?;Kakariko;Hateno;Lurelin;Arcadia
-Duro;Historia;¿Quién era el Campeón de los Orni?;Revali;Daruk;Mipha;Urbosa
-Fácil;Mecánicas;¿Qué habilidad permite retroceder el tiempo de un objeto?;Retroceso;Crono;Infiltración;Ultramano
-Medio;Objetos;¿Qué plato recupera toda la salud y da corazones extra?;"Comida ""Vivaz""";"Comida ""Recia""";"Comida ""Protectora""";"Comida ""Sigilosa"""
-Duro;Jefes;¿Cómo se llama el jefe de los Gerudo en el Templo del Rayo?;Reina Gibdo;Rey Gleeok;Moldora Real;Ganondorf
-Fácil;Personajes;¿Quién es el villano principal de la saga?;Ganon / Ganondorf;Vaati;Zant;Grahim
-Medio;Localización;¿Cuál es la tercera capa del mapa además del Cielo y la Superficie?;El Subsuelo;El Abismo;El Inframundo;El Vacío
-Duro;Mecánicas;¿Qué módulo permite crear columnas de hielo en el agua?;Crionis;Imán;Bombas;Paralizador
-Fácil;Personajes;¿Cómo se llama el hijo de Teba que ayuda a Link en el cielo?;Tureli;Sidon;Riju;Yunobo
-Medio;Enemigos;¿Cómo se llaman las manos rojas que surgen del aura maléfica?;Ganonmancia;Manos de aura;Garras de sombra;Bokoblins fantasmales
-Duro;Localización;¿Dónde se encuentra la Fuente del Gran Hada en Gerudo?;Bajo el esqueleto gigante;En la cima de la montaña;En el oasis;En la ciudad
-Fácil;Mecánicas;¿Qué objeto permite a Link planear por el aire?;Paravela;Capa alada;Botas de pegaso;Globo aerostático
-Medio;Lore;¿Qué raza ayuda a Link a crear la estructura del Quinto Sabio?;Zonnan;Sheikah;Hyliana;Mogma
-Duro;Objetos;¿Qué material se usa para mejorar la batería?;Cristal energético zonnan;Diamante;Ámbar;Zonaite puro
-Fácil;Mecánicas;¿Cómo se llama la habilidad de unir un arma con un objeto?;Combinación;Ultramano;Fusión;Forja
-Medio;Historia;¿Quién es la Campeona que controla el rayo?;Urbosa;Mipha;Zelda;Impa
-Duro;Curiosidades;¿Qué pasa si golpeas muchas veces a un cuco?;Te atacan en grupo;Te dan un huevo;Explotan;Subes de nivel
-Fácil;Personajes;¿Quién es el príncipe (luego rey) de los Zora?;Sidon;Dorephan;Muzu;Seguro
-Medio;Localización;¿Cómo se llaman los cráteres por los que bajas al Subsuelo?;Abismos;Grietas;Agujeros;Túneles de aura
-Duro;Historia;"¿Cuál es el verdadero nombre del ""Rey de los Demonios""?";Ganondorf;Ganon;Heraldo;Calmidad
-Fácil;Enemigos;¿Qué enemigo te lanza piedras desde el agua?;Octorok;Lizalfos;Chuchu;Keese
-Medio;Mecánicas;¿Cómo se llama el poder que te permite resucitar una vez?;Plegaria de Mipha;Furia de Revali;Escudo de Daruk;Ira de Urbosa
-Duro;Localización;"¿Dónde se encuentra la ""Estatua de la Llamada"" que pide ojos?";Gran Meseta;Castillo de Hyrule;Templo del Tiempo;Subsuelo
-Fácil;Lore;¿Cuál es el nombre del reino donde ocurre el juego?;Hyrule;Termina;Koholint;Lorule
-Medio;Personajes;¿Cómo se llama el grupo de investigación de Zelda?;Equipo de investigación zonnan;Brigada de búsqueda;Club de fans de Zelda;Guardia real
-Duro;Enemigos;¿Qué monstruo imita ser un cofre de tesoro?;Like Like;Mimic;Octorok de tesoro;Gleeok
-Fácil;Mecánicas;¿Cómo se consiguen más corazones?;Cambiando símbolos de valía;Comiendo manzanas;Subiendo de nivel;Durmiendo
-Medio;Localización;¿Qué ciudad Sheikah tiene un laboratorio tecnológico?;Hateno;Kakariko;Lurelin;Tarrey
-Duro;Mecánicas;¿Qué ocurre si disparas una flecha con una flor bomba en un lugar caluroso?;Explota en tu cara;No pasa nada;Hace más daño;Se convierte en humo
-Fácil;Personajes;¿Cómo se llama la raza de hombres-pájaro?;Orni;Zora;Goron;Gerudo
-Medio;Mecánicas;¿Qué aparato zonnan te permite salir disparado hacia arriba?;Resorte;Turbina;Cohete;Estaca
-Duro;Historia;¿Quién es el padre de Zelda?;Rhoam Bosphoramus Hyrule;Rauru;Dorephan;Gaepora
-Fácil;Objetos;¿Qué fruta recupera medio corazón y es muy común?;Manzana;Plátano;Baya;Sandía
-Medio;Jefes;¿Cuál es el nombre de la forma final de Ganon?;Ganon, Bestia de las Tinieblas;Ganon Calmidad;Ganon el Humano;Rey Demonio
-Duro;Localización;¿Dónde se encuentra el Templo del Espíritu?;En el Subsuelo;En el Cielo;En el Desierto;En el Volcán
-Fácil;Mecánicas;¿Para qué sirven las torres de mapeado?;Revelar el mapa y lanzarte;Guardar la partida;Cocinar;Mejorar armas
-Medio;Enemigos;¿Qué enemigo vuela y suele llevar a otros monstruos?;Aerocuda;Keese;Kakuda;Orni corrompido
-Duro;Mecánicas;¿Qué técnica permite ralentizar el tiempo al esquivar?;Guardia Perfecta;Cámara lenta;Flujo de tiempo;Salto mortal
-Fácil;Personajes;¿Cómo se llaman los seres pequeños que se esconden por todo Hyrule?;Kologs;Minish;Picoris;Hylianos
-Medio;Lore;¿Qué son las Piedras Secretas?;Gemas que amplifican poderes;Rupias gigantes;Fragmentos de estrella;Ojos de dragón
-Duro;Localización;¿Cómo se llama el laberinto gigante en el mar de Akkala?;Fortaleza de Lomei;Isla de la Prueba;Cárcel de Ganon;Ruinas de Sombras
-Fácil;Objetos;¿Qué flor se usa para crear explosiones?;Flor bomba;Flor de aura;Flor radiante;Flor de fuego
-Medio;Enemigos;¿Qué enemigo se camufla como una roca?;Talus;Hinox;Moldora;Gólgota
-Duro;Historia;¿Quién ayuda a Link a reconstruir su brazo?;Rauru;Zelda;Pruna;Impa
-Fácil;Localización;¿Cómo se llama el volcán de Hyrule?;Montaña de la Muerte;Pico de Fuego;Monte Eldin;Vulcanius
-Medio;Mecánicas;¿Qué objeto necesitas para moverte rápido por el Subsuelo?;Vehículo zonnan;Caballo;Paravela;Botas de hierro
-Duro;Curiosidades;¿Qué objeto recibes de Obab tras encontrar las 900 semillas?;Una caca dorada;Una espada;Rupias infinitas;Un traje nuevo
-Fácil;Personajes;¿Cómo se llama la raza de guerreras del desierto?;Gerudo;Amazonas;Sheikah;Zora
-Medio;Mecánicas;¿Para qué sirve el generador de esquemas?;Construir planos guardados;Generar rupias;Teletransporte;Llamar a Zelda
-Duro;Jefes;¿A qué Bestia Divina pertenece el elemento agua?;Vah Ruta;Vah Medoh;Vah Naboris;Vah Rudania
-Fácil;Localización;¿Dónde está ahora el hogar de Link en Arcadia?;En una colina cercana;En el centro;En el subsuelo;No tiene casa
-Medio;Enemigos;¿Cómo se llaman los nuevos soldados mecánicos?;Golems;Guardianes;Soldados Sheikah;Robots Zonnan
-Duro;Lore;¿Quién creó originalmente la Trifuerza?;Las Diosas Din, Nayru y Farore;Hylia;Ganon;Rauru
-Fácil;Objetos;¿Qué mineral se vende por más rupias?;Diamante;Ámbar;Ópalo;Topacio
-Medio;Mecánicas;¿Qué permite el módulo del imán?;Mover objetos metálicos;Atraer flechas;Hacer daño;Teletransportarse
-Duro;Localización;¿Dónde se encuentra el Laberinto de Lomei del Cielo?;Sobre Akkala;Sobre el Desierto;Sobre Hebra;Sobre Necluda
-Fácil;Personajes;¿Cuál es el instrumento que toca el bardo Nyel?;Acordeón;Lira;Arpa;Flauta
-Medio;Historia;¿Qué le pasó al brazo derecho original de Link?;Fue consumido por el aura;Se lo cortó Ganondorf;Se perdió en el tiempo;Zelda se lo quedó
-Duro;Mecánicas;¿Qué ingrediente hace que las flechas congelen?;Fruto gélido;Gelatina Chuchu blanca;Ambas son correctas;Zafiro
-Fácil;Localización;¿Cómo se llama el río que rodea el Castillo de Hyrule?;Foso del Castillo;Río Hylia;Río de la Muerte;Río sagrado
-Medio;Mecánicas;¿Cómo se llama la técnica de devolver un láser con el escudo?;Guardia Perfecta;Reflejo;Parry;Escudo divino
-Duro;Personajes;¿Quién es el líder de los Yiga en TotK?;Maestro Kolog;Maestro Koga;Maestro Zant;Maestro Grahim
-Fácil;Objetos;¿Qué animal puedes domar y registrar en postas?;Caballo;Oso;Ciervo;Rinoceronte
-Medio;Localización;¿Qué hay ahora donde antes estaba el laboratorio de Hateno?;Un campo de calabazas;Un museo;La casa de Pruna;Un santuario
-Duro;Historia;¿Cómo murió el Rey de Hyrule?;Durante el Gran Cataclismo;De viejo;Asesinado por Ganondorf;En un accidente
-Fácil;Enemigos;¿Qué criatura te da gemas si le disparas?;Rupín;Kolog;Satori;Chuchu de oro
-Medio;Lore;¿Cómo se llama el fenómeno meteorológico que afecta a los Goron?;Rocofagia;Lluvia de fuego;Niebla roja;Calor extremo
-Duro;Mecánicas;¿Qué objeto permite ver a través de la oscuridad del subsuelo?;Semilla luminosa;Antorcha;Casco de minero;Todas son correctas
-Fácil;Personajes;¿Quién es la Campeona de los Gerudo?;Urbosa;Riju;Paya;Nabooru
-Medio;Localización;¿Dónde está la Espada Maestra en BotW?;Bosque Kolog;Castillo;Desierto;Cielo
-Duro;Mecánicas;¿Qué habilidad de sabio te permite rodar como una bola de fuego?;Poder de Yunobo;Poder de Tureli;Poder de Riju;Poder de Sidon
-Fácil;Curiosidades;¿Cuál es la moneda de cambio en Hyrule?;Rupias;Dólares;Oro;Piedras de aura
+Fácil;Juego Link Nintendo;¿Cómo se llama la tableta que Link usa para sus habilidades?;Piedra Sheikah;Tableta de Pruna;Módulo Zonnan;Espejo Oscuro
+Fácil;Juego Link Nintendo;¿Cómo se llama la nueva habilidad para pegar objetos?;Ultramano;Combinación;Infiltración;Retroceso
+Medio;Juego Link Nintendo;¿Cuántos años estuvo Link dormido en el Santuario de la Vida?;100 años;50 años;1000 años;10 años
+Medio;Juego Link Nintendo;¿Quién es la primera Reina de Hyrule que conoce Zelda?;Sonia;Rauru;Mineru;Impa
+Duro;Juego Link Nintendo;¿Cómo se llama el monte donde reside el dragón Naydra corrompido?;Monte Lanayru;Monte Hylia;Pico de la Muerte;Cordillera de Hebra
+Fácil;Juego Link Nintendo;¿Cómo se llaman los enemigos recurrentes que parecen cerdos?;Bokoblins;Lizalfos;Moblins;Mogmas
+Medio;Juego Link Nintendo;¿Qué habilidad permite a Link atravesar techos?;Infiltración;Retroceso;Combinación;Ultramano
+Duro;Juego Link Nintendo;¿A qué raza pertenece Rauru, el primer rey de Hyrule?;Zonnan;Hyliano;Sheikah;Aonuma
+Fácil;Juego Link Nintendo;¿En qué región se encuentra la Ciudad Gerudo?;Desierto de Gerudo;Sierra de Akkala;Gran Bosque;Necluda
+Medio;Juego Link Nintendo;¿Cuál es la Bestia Divina de la raza Goron?;Vah Rudania;Vah Medoh;Vah Naboris;Vah Ruta
+Duro;Juego Link Nintendo;¿Cómo se llaman las raíces que iluminan el subsuelo?;Raíces de luz;Semillas luminosas;Flores aturdidoras;Brotes Kolog
+Fácil;Juego Link Nintendo;¿Cómo se llama el líder de los Kolog?;Obab;Nuez;Paya;Kakariko
+Medio;Juego Link Nintendo;¿Qué objeto traga Zelda para convertirse en el Dragón Blanco?;Una piedra secreta;Una lágrima de luz;Un fruto de aura;Una escama de oro
+Duro;Juego Link Nintendo;¿Cuántas semillas Kolog hay en total en el juego?;900;500;100;1000
+Fácil;Juego Link Nintendo;¿Cómo se llama la energía necesaria para usar artilugios Zonnan?;Batería;Vigor;Magia;Carga ancestral
+Medio;Juego Link Nintendo;¿Qué monstruo de tres cabezas acecha en puentes y cumbres?;Gleeok;Centaleón;Moldora;Hinox
+Duro;Juego Link Nintendo;¿Cómo se llama la isla que te quita todo el equipo al llegar?;Isla de la Prueba;Isla de Evansa;Isla Frontia;Isla de la Decepción
+Fácil;Juego Link Nintendo;¿Cómo se llama el científico Sheikah que vive en Akkala?;Roteno;Pruna;Impa;Kansel
+Medio;Juego Link Nintendo;¿Quién es el jefe final de los dominios de los Orni?;Gidrah;Colgera;Morgos;Vah Medoh
+Duro;Juego Link Nintendo;¿Qué ocurre si intentas usar una flecha de fuego en la Montaña de la Muerte?;Explota al instante;No se enciende;Hace más daño;Se apaga
+Fácil;Juego Link Nintendo;¿Cómo se llama la espada que Link debe recuperar?;Espada Maestra;Espada de la Fiera Deidad;Mandoble de la Verdad;Daga del Tiempo
+Medio;Juego Link Nintendo;¿Cómo se llaman las islas flotantes donde comienza el juego?;Gran isla de los albores;Meseta de los albores;Cielo de Hyrule;Archipiélago Zonnan
+Duro;Juego Link Nintendo;¿Quién es la hermana de Rauru?;Mineru;Sonia;Zelda;Pruna
+Fácil;Juego Link Nintendo;¿Qué barra limita la distancia que Link puede correr o escalar?;Vigor;Salud;Mana;Batería
+Medio;Juego Link Nintendo;¿Cuál es el enemigo más fuerte del mapa (sin ser jefe)?;Centaleón;Guardián;Hinox;Moldora
+Duro;Juego Link Nintendo;¿En qué lugar secreto se encuentra la Aldea de los Kolog?;Bosque Perdido;Monte Gólgota;Valle de la Calma;Selva de Farone
+Fácil;Juego Link Nintendo;¿Cómo se llama el jefe de la construcción en Hyrule?;Hudson (Karid);Bolson;Kadeli;Tureli
+Medio;Juego Link Nintendo;¿Qué material es esencial para fabricar flechas guiadas?;Ojo de Keese;Ala de Aerocuda;Fruto resplandeciente;Flor bomba
+Duro;Juego Link Nintendo;"¿Qué son las ""Lágrimas del Dragón""?";Recuerdos de Zelda;Objetos de curación;Monedas de cambio;Piedras de invocación
+Fácil;Juego Link Nintendo;¿Qué máquinas disparan láseres y tienen patas mecánicas?;Guardianes;Golems;Octoroks;Wizzrobes
+Medio;Juego Link Nintendo;¿Cómo se llama la aldea donde vive Impa?;Kakariko;Hateno;Lurelin;Arcadia
+Duro;Juego Link Nintendo;¿Quién era el Campeón de los Orni?;Revali;Daruk;Mipha;Urbosa
+Fácil;Juego Link Nintendo;¿Qué habilidad permite retroceder el tiempo de un objeto?;Retroceso;Crono;Infiltración;Ultramano
+Medio;Juego Link Nintendo;¿Qué plato recupera toda la salud y da corazones extra?;"Comida ""Vivaz""";"Comida ""Recia""";"Comida ""Protectora""";"Comida ""Sigilosa"""
+Duro;Juego Link Nintendo;¿Cómo se llama el jefe de los Gerudo en el Templo del Rayo?;Reina Gibdo;Rey Gleeok;Moldora Real;Ganondorf
+Fácil;Juego Link Nintendo;¿Quién es el villano principal de la saga?;Ganon / Ganondorf;Vaati;Zant;Grahim
+Medio;Juego Link Nintendo;¿Cuál es la tercera capa del mapa además del Cielo y la Superficie?;El Subsuelo;El Abismo;El Inframundo;El Vacío
+Duro;Juego Link Nintendo;¿Qué módulo permite crear columnas de hielo en el agua?;Crionis;Imán;Bombas;Paralizador
+Fácil;Juego Link Nintendo;¿Cómo se llama el hijo de Teba que ayuda a Link en el cielo?;Tureli;Sidon;Riju;Yunobo
+Medio;Juego Link Nintendo;¿Cómo se llaman las manos rojas que surgen del aura maléfica?;Ganonmancia;Manos de aura;Garras de sombra;Bokoblins fantasmales
+Duro;Juego Link Nintendo;¿Dónde se encuentra la Fuente del Gran Hada en Gerudo?;Bajo el esqueleto gigante;En la cima de la montaña;En el oasis;En la ciudad
+Fácil;Juego Link Nintendo;¿Qué objeto permite a Link planear por el aire?;Paravela;Capa alada;Botas de pegaso;Globo aerostático
+Medio;Juego Link Nintendo;¿Qué raza ayuda a Link a crear la estructura del Quinto Sabio?;Zonnan;Sheikah;Hyliana;Mogma
+Duro;Juego Link Nintendo;¿Qué material se usa para mejorar la batería?;Cristal energético zonnan;Diamante;Ámbar;Zonaite puro
+Fácil;Juego Link Nintendo;¿Cómo se llama la habilidad de unir un arma con un objeto?;Combinación;Ultramano;Fusión;Forja
+Medio;Juego Link Nintendo;¿Quién es la Campeona que controla el rayo?;Urbosa;Mipha;Zelda;Impa
+Duro;Juego Link Nintendo;¿Qué pasa si golpeas muchas veces a un cuco?;Te atacan en grupo;Te dan un huevo;Explotan;Subes de nivel
+Fácil;Juego Link Nintendo;¿Quién es el príncipe (luego rey) de los Zora?;Sidon;Dorephan;Muzu;Seguro
+Medio;Juego Link Nintendo;¿Cómo se llaman los cráteres por los que bajas al Subsuelo?;Abismos;Grietas;Agujeros;Túneles de aura
+Duro;Juego Link Nintendo;"¿Cuál es el verdadero nombre del ""Rey de los Demonios""?";Ganondorf;Ganon;Heraldo;Calmidad
+Fácil;Juego Link Nintendo;¿Qué enemigo te lanza piedras desde el agua?;Octorok;Lizalfos;Chuchu;Keese
+Medio;Juego Link Nintendo;¿Cómo se llama el poder que te permite resucitar una vez?;Plegaria de Mipha;Furia de Revali;Escudo de Daruk;Ira de Urbosa
+Duro;Juego Link Nintendo;"¿Dónde se encuentra la ""Estatua de la Llamada"" que pide ojos?";Gran Meseta;Castillo de Hyrule;Templo del Tiempo;Subsuelo
+Fácil;Juego Link Nintendo;¿Cuál es el nombre del reino donde ocurre el juego?;Hyrule;Termina;Koholint;Lorule
+Medio;Juego Link Nintendo;¿Cómo se llama el grupo de investigación de Zelda?;Equipo de investigación zonnan;Brigada de búsqueda;Club de fans de Zelda;Guardia real
+Duro;Juego Link Nintendo;¿Qué monstruo imita ser un cofre de tesoro?;Like Like;Mimic;Octorok de tesoro;Gleeok
+Fácil;Juego Link Nintendo;¿Cómo se consiguen más corazones?;Cambiando símbolos de valía;Comiendo manzanas;Subiendo de nivel;Durmiendo
+Medio;Juego Link Nintendo;¿Qué ciudad Sheikah tiene un laboratorio tecnológico?;Hateno;Kakariko;Lurelin;Tarrey
+Duro;Juego Link Nintendo;¿Qué ocurre si disparas una flecha con una flor bomba en un lugar caluroso?;Explota en tu cara;No pasa nada;Hace más daño;Se convierte en humo
+Fácil;Juego Link Nintendo;¿Cómo se llama la raza de hombres-pájaro?;Orni;Zora;Goron;Gerudo
+Medio;Juego Link Nintendo;¿Qué aparato zonnan te permite salir disparado hacia arriba?;Resorte;Turbina;Cohete;Estaca
+Duro;Juego Link Nintendo;¿Quién es el padre de Zelda?;Rhoam Bosphoramus Hyrule;Rauru;Dorephan;Gaepora
+Fácil;Juego Link Nintendo;¿Qué fruta recupera medio corazón y es muy común?;Manzana;Plátano;Baya;Sandía
+Medio;Juego Link Nintendo;¿Cuál es el nombre de la forma final de Ganon?;Ganon, Bestia de las Tinieblas;Ganon Calmidad;Ganon el Humano;Rey Demonio
+Duro;Juego Link Nintendo;¿Dónde se encuentra el Templo del Espíritu?;En el Subsuelo;En el Cielo;En el Desierto;En el Volcán
+Fácil;Juego Link Nintendo;¿Para qué sirven las torres de mapeado?;Revelar el mapa y lanzarte;Guardar la partida;Cocinar;Mejorar armas
+Medio;Juego Link Nintendo;¿Qué enemigo vuela y suele llevar a otros monstruos?;Aerocuda;Keese;Kakuda;Orni corrompido
+Duro;Juego Link Nintendo;¿Qué técnica permite ralentizar el tiempo al esquivar?;Guardia Perfecta;Cámara lenta;Flujo de tiempo;Salto mortal
+Fácil;Juego Link Nintendo;¿Cómo se llaman los seres pequeños que se esconden por todo Hyrule?;Kologs;Minish;Picoris;Hylianos
+Medio;Juego Link Nintendo;¿Qué son las Piedras Secretas?;Gemas que amplifican poderes;Rupias gigantes;Fragmentos de estrella;Ojos de dragón
+Duro;Juego Link Nintendo;¿Cómo se llama el laberinto gigante en el mar de Akkala?;Fortaleza de Lomei;Isla de la Prueba;Cárcel de Ganon;Ruinas de Sombras
+Fácil;Juego Link Nintendo;¿Qué flor se usa para crear explosiones?;Flor bomba;Flor de aura;Flor radiante;Flor de fuego
+Medio;Juego Link Nintendo;¿Qué enemigo se camufla como una roca?;Talus;Hinox;Moldora;Gólgota
+Duro;Juego Link Nintendo;¿Quién ayuda a Link a reconstruir su brazo?;Rauru;Zelda;Pruna;Impa
+Fácil;Juego Link Nintendo;¿Cómo se llama el volcán de Hyrule?;Montaña de la Muerte;Pico de Fuego;Monte Eldin;Vulcanius
+Medio;Juego Link Nintendo;¿Qué objeto necesitas para moverte rápido por el Subsuelo?;Vehículo zonnan;Caballo;Paravela;Botas de hierro
+Duro;Juego Link Nintendo;¿Qué objeto recibes de Obab tras encontrar las 900 semillas?;Una caca dorada;Una espada;Rupias infinitas;Un traje nuevo
+Fácil;Juego Link Nintendo;¿Cómo se llama la raza de guerreras del desierto?;Gerudo;Amazonas;Sheikah;Zora
+Medio;Juego Link Nintendo;¿Para qué sirve el generador de esquemas?;Construir planos guardados;Generar rupias;Teletransporte;Llamar a Zelda
+Duro;Juego Link Nintendo;¿A qué Bestia Divina pertenece el elemento agua?;Vah Ruta;Vah Medoh;Vah Naboris;Vah Rudania
+Fácil;Juego Link Nintendo;¿Dónde está ahora el hogar de Link en Arcadia?;En una colina cercana;En el centro;En el subsuelo;No tiene casa
+Medio;Juego Link Nintendo;¿Cómo se llaman los nuevos soldados mecánicos?;Golems;Guardianes;Soldados Sheikah;Robots Zonnan
+Duro;Juego Link Nintendo;¿Quién creó originalmente la Trifuerza?;Las Diosas Din, Nayru y Farore;Hylia;Ganon;Rauru
+Fácil;Juego Link Nintendo;¿Qué mineral se vende por más rupias?;Diamante;Ámbar;Ópalo;Topacio
+Medio;Juego Link Nintendo;¿Qué permite el módulo del imán?;Mover objetos metálicos;Atraer flechas;Hacer daño;Teletransportarse
+Duro;Juego Link Nintendo;¿Dónde se encuentra el Laberinto de Lomei del Cielo?;Sobre Akkala;Sobre el Desierto;Sobre Hebra;Sobre Necluda
+Fácil;Juego Link Nintendo;¿Cuál es el instrumento que toca el bardo Nyel?;Acordeón;Lira;Arpa;Flauta
+Medio;Juego Link Nintendo;¿Qué le pasó al brazo derecho original de Link?;Fue consumido por el aura;Se lo cortó Ganondorf;Se perdió en el tiempo;Zelda se lo quedó
+Duro;Juego Link Nintendo;¿Qué ingrediente hace que las flechas congelen?;Fruto gélido;Gelatina Chuchu blanca;Ambas son correctas;Zafiro
+Fácil;Juego Link Nintendo;¿Cómo se llama el río que rodea el Castillo de Hyrule?;Foso del Castillo;Río Hylia;Río de la Muerte;Río sagrado
+Medio;Juego Link Nintendo;¿Cómo se llama la técnica de devolver un láser con el escudo?;Guardia Perfecta;Reflejo;Parry;Escudo divino
+Duro;Juego Link Nintendo;¿Quién es el líder de los Yiga en TotK?;Maestro Kolog;Maestro Koga;Maestro Zant;Maestro Grahim
+Fácil;Juego Link Nintendo;¿Qué animal puedes domar y registrar en postas?;Caballo;Oso;Ciervo;Rinoceronte
+Medio;Juego Link Nintendo;¿Qué hay ahora donde antes estaba el laboratorio de Hateno?;Un campo de calabazas;Un museo;La casa de Pruna;Un santuario
+Duro;Juego Link Nintendo;¿Cómo murió el Rey de Hyrule?;Durante el Gran Cataclismo;De viejo;Asesinado por Ganondorf;En un accidente
+Fácil;Juego Link Nintendo;¿Qué criatura te da gemas si le disparas?;Rupín;Kolog;Satori;Chuchu de oro
+Medio;Juego Link Nintendo;¿Cómo se llama el fenómeno meteorológico que afecta a los Goron?;Rocofagia;Lluvia de fuego;Niebla roja;Calor extremo
+Duro;Juego Link Nintendo;¿Qué objeto permite ver a través de la oscuridad del subsuelo?;Semilla luminosa;Antorcha;Casco de minero;Todas son correctas
+Fácil;Juego Link Nintendo;¿Quién es la Campeona de los Gerudo?;Urbosa;Riju;Paya;Nabooru
+Medio;Juego Link Nintendo;¿Dónde está la Espada Maestra en BotW?;Bosque Kolog;Castillo;Desierto;Cielo
+Duro;Juego Link Nintendo;¿Qué habilidad de sabio te permite rodar como una bola de fuego?;Poder de Yunobo;Poder de Tureli;Poder de Riju;Poder de Sidon
+Fácil;Juego Link Nintendo;¿Cuál es la moneda de cambio en Hyrule?;Rupias;Dólares;Oro;Piedras de aura
 Fácil;GRECIA 1 ESO;¿Cómo se llamaban las ciudades-estado independientes de la Antigua Grecia?;Polis;Provincias;Aldeas;Imperios
 Fácil;GRECIA 1 ESO;¿Qué mar baña las costas orientales de la Península Balcánica (Grecia)?;Mar Egeo;Mar Rojo;Mar del Norte;Mar Muerto
 Medio;GRECIA 1 ESO;¿Cómo llamaban los antiguos griegos a su propio territorio?;Hélade;Grecia;Macedonia;Anatolia
