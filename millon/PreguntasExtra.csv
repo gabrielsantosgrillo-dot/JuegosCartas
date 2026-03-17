@@ -1,9 +1,7 @@
-﻿Column1;Column2;Column3;Column4;Column5;Column6;Column7
-Dificultad;Categoría;Pregunta;Respuesta Correcta;Incorrecta 1;Incorrecta 2;Incorrecta 3
+﻿Dificultad;Categoría;Pregunta;Respuesta Correcta;Incorrecta 1;Incorrecta 2;Incorrecta 3
 Fácil;Geografía;¿Cuál es el río más largo del mundo?;Amazonas;Nilo;Misisipi;Yangtsé
 Fácil;Ciencia;¿Qué gas necesitan los humanos para respirar?;Oxígeno;Nitrógeno;Hidrógeno;Dióxido de carbono
 Medio;Historia;¿En qué año cayó el Muro de Berlín?;1989;1991;1985;1975
-Duro;Arte;"¿Quién pintó ""La joven de la perla""?";Johannes Vermeer;Rembrandt;Van Gogh;Jan van Eyck
 Fácil;Deportes;¿Cuántos jugadores tiene un equipo de baloncesto en pista?;5;6;7;11
 Medio;Ciencia;¿Cuál es el símbolo químico del Oro?;Au;Ag;Fe;Pb
 Fácil;Cine;¿Quién interpretó a Jack en la película Titanic?;Leonardo DiCaprio;Brad Pitt;Johnny Depp;Matt Damon
@@ -162,7 +160,7 @@ Fácil;Real Madrid;¿Qué elemento tecnológico destaca en el nuevo Bernabéu?;C
 Medio;Real Madrid;"¿En qué año recibió el club el título de ""Real"" de manos de Alfonso XIII?";1920;1902;1931;1910
 Duro;Real Madrid;¿Quién es el jugador con más títulos de Liga ganados con el club?;Paco Gento;Pirri;Sanchís;Marcelo
 Fácil;Real Madrid;¿Qué jugador francés ganó el Balón de Oro 2022 siendo madridista?;Karim Benzema;Kylian Mbappé;Antoine Griezmann;Eduardo Camavinga
-Medio;Real Madrid;¿Cuál fue el resultado de la final de la Séptima?;1-0;2-1;3-0;2-0
+Medio;Real Madrid;¿Cuál fue el resultado de la final de la Séptima?;1-0;02-ene;3-0;2-0
 Duro;Real Madrid;¿Qué entrenador ganó dos ligas en dos etapas distintas siendo destituido tras ganarlas?;Fabio Capello;Jupp Heynckes;Leo Beenhakker;Bernd Schuster
 Fácil;Real Madrid;¿Cómo apodan a Vinícius Júnior?;Vini;El Bicho;El Rayo;Magic Vini
 Medio;Real Madrid;¿Qué marca deportiva viste actualmente al Real Madrid?;Adidas;Nike;Puma;New Balance
@@ -1003,3 +1001,103 @@ Medio;Turismo en Almodóvar del Campo;¿Qué institución actual ocupa el edific
 Duro;Turismo en Almodóvar del Campo;¿Cómo se llamaba la región romana que englobaba las minas de Sisapo según Plinio el Viejo?;Regio Sisaponensis;Regio Aurífera;Valle del Mercurio;Hispania Minera
 Fácil;Turismo en Almodóvar del Campo;¿Cuál es el punto de encuentro por excelencia para tomar el aperitivo en Almodóvar del Campo?;La Plaza Mayor y sus alrededores;El centro comercial;El polideportivo;El mirador de la montaña
 Medio;Turismo en Almodóvar del Campo;¿De qué material suelen estar pintados los zócalos de las casas tradicionales manchegas para proteger de la humedad y el polvo?;De color añil (azul) o rojo almagre;De pan de oro;De negro carbón;De verde flúor
+Fácil;Geografía;¿En qué provincia española se encuentra la ciudad de Puertollano?;Ciudad Real;Toledo;Albacete;Cuenca
+Medio;Geografía;¿Qué río baña el término municipal de Puertollano, especialmente su valle sur?;Río Ojailén;Río Guadiana;Río Tajo;Río Jabalón
+Duro;Geografía;¿Entre qué dos cerros principales se asienta históricamente el núcleo urbano de Puertollano?;Cerro de Santa Ana y Cerro de San Sebastián;Cerro de los Molinos y Cerro de la Paz;Pico de la Muerte y Monte Perdido;Cerro del Águila y Peñón de Gibraltar
+Fácil;Geografía;¿Con qué gran espacio natural y ganadero limita Puertollano por el sur?;Valle de Alcudia;Cabañeros;Tablas de Daimiel;Serranía de Cuenca
+Medio;Población;¿Qué puesto ocupa Puertollano por número de habitantes dentro de la provincia de Ciudad Real?;El segundo (tras la capital);El primero;El quinto;El décimo
+Fácil;Población;¿Cuántos habitantes tiene aproximadamente Puertollano (datos de la década de 2020)?;Alrededor de 45.000 habitantes;Más de 100.000 habitantes;Unos 10.000 habitantes;Menos de 5.000 habitantes
+Duro;Geografía;¿Cómo se llama la extensa zona natural de titularidad municipal que sirve de pulmón verde y esparcimiento?;Dehesa Boyal;Parque Gasset;Pinar del Rey;Soto de Revenga
+Medio;Geografía;¿A qué comarca natural e histórica pertenece Puertollano?;Campo de Calatrava;La Mancha Alta;La Alcarria;Los Montes de Toledo
+Fácil;Geografía;¿Es Puertollano la capital de la provincia de Ciudad Real?;No, es Ciudad Real capital;Sí, es la capital;Comparten la capitalidad;Fue capital hasta el año 2000
+Duro;Geografía;¿Qué importante vía de tren de Alta Velocidad (AVE) fue pionera en parar en Puertollano en 1992?;La línea Madrid-Sevilla;La línea Madrid-Barcelona;La línea Madrid-Valencia;La línea Madrid-Lisboa
+Fácil;Economía;¿Qué título o lema se utiliza habitualmente para referirse a Puertollano?;La ciudad de la energía;La ciudad de los palacios;La ciudad del viento;La capital del vino
+Medio;Economía;¿Qué gran complejo industrial petroquímico domina el horizonte de Puertollano?;El Complejo Industrial de Repsol;La fábrica de Seat;La central nuclear de Trillo;La refinería de Petronor
+Duro;Economía;¿Qué centro de investigación nacional tiene su sede principal en Puertollano?;El Centro Nacional del Hidrógeno (CNH2);El Centro Superior de Investigaciones Científicas;El Instituto de Astrofísica;El Centro Nacional de Inteligencia
+Fácil;Economía;¿Qué tipo de energía renovable se investiga intensamente en las instalaciones del ISFOC en Puertollano?;Energía solar fotovoltaica;Energía mareomotriz;Energía geotérmica;Energía nuclear
+Medio;Economía;¿Qué tipo de energía producía la antigua central térmica de Elcogás (hoy desmantelada) usando carbón de forma limpia?;Gasificación integrada en ciclo combinado (GICC);Fisión nuclear;Fusión en frío;Quema de biomasa pura
+Fácil;Economía;¿Además del petróleo y las renovables, qué recurso energético fue el motor económico del pueblo hasta el siglo XX?;El carbón;El uranio;El oro;El gas natural
+Medio;Economía;¿Qué gran planta de fertilizantes cerró recientemente en la ciudad y ahora es parte de Iberdrola/Fertiberia para hidrógeno verde?;Planta de Fertiberia;Planta de Bayer;Planta de Monsanto;Planta de BASF
+Duro;Economía;¿Qué empresa pública nacional se encargaba de la minería del carbón en la cuenca de Puertollano (ENCASUR)?;Empresa Nacional Carbonífera del Sur;Empresa Nacional de la Energía;Compañía Minera Manchega;Carbones de Calatrava
+Fácil;Economía;¿Qué medio de transporte histórico permitió sacar todo el carbón de Puertollano hacia el resto de España?;El ferrocarril;Barcos mercantes por el río;Zepelines;Mulas de carga
+Medio;Economía;¿Cómo ha influido la industria en la demografía de la ciudad durante el siglo XX?;Causó una gran inmigración y explosión demográfica;Hizo que la gente huyera por el ruido;No tuvo ningún impacto;Solo atrajo a turistas
+Fácil;Minería;¿En qué año se descubrió oficialmente el primer yacimiento de carbón en Puertollano, cambiando su historia?;En 1873;En 1492;En 1950;En el año 2000
+Medio;Minería;¿Cómo se llamaba la famosa sociedad francesa que explotó las minas de carbón y plomo en la zona (SMMP)?;Sociedad Minero Metalúrgica de Peñarroya;Sociedad Minera de Puertollano;Minas de Calatrava S.A.;Empresa Carbonera Francesa
+Duro;Minería;¿Qué animal extinto de hace millones de años se descubrió fosilizado en las pizarras mineras de Puertollano?;El anfibio prehistórico (Iberia Ompolenca / Omphalosaurus);Un Tyrannosaurus Rex;Un Mamut lanudo;Un Dodo
+Fácil;Minería;¿Qué emblemática estructura metálica roja es hoy el símbolo del pasado minero de la ciudad y se puede visitar?;El Castillete del Pozo Norte;La Torre Eiffel de La Mancha;La Grúa de San Sebastián;El Puente de Hierro
+Medio;Minería;¿Dónde se ubica hoy el principal Museo de la Minería de la ciudad?;En el Parque del Pozo Norte;En el interior de la refinería;En el Ayuntamiento;En el Cerro de Santa Ana
+Duro;Minería;¿Cómo se llamaba la pizarra bituminosa de la que se destilaba petróleo crudo en Puertollano en la posguerra?;Esquisto bituminoso (Pizarras);Carbón blanco;Antracita pura;Lignito rojo
+Fácil;Minería;¿En honor a qué profesión existe un enorme monumento de bronce en el Cerro de Santa Ana?;Monumento al Minero;Monumento al Agricultor;Monumento al Soldado;Monumento al Maquinista
+Medio;Minería;¿Quién es el escultor del famoso Monumento al Minero de Puertollano?;José Noja;Eduardo Chillida;Auguste Rodin;Mariano Benlliure
+Duro;Minería;¿Qué nombre tenía la cuenca hullera subterránea que provocó una de las mayores tragedias en 1958?;Pozo María Isabel;Pozo de las Lágrimas;Mina de San Juan;Pozo del Carbón
+Fácil;Minería;¿Qué enfermedad pulmonar, causada por respirar polvo de carbón, afectó a muchos mineros locales?;Silicosis;Gripe aviar;Escorbuto;Malaria
+Medio;Patrimonio;¿Qué iglesia es el templo más antiguo e importante de la ciudad, declarado Bien de Interés Cultural (BIC)?;Iglesia de Nuestra Señora de la Asunción;Catedral de Puertollano;Ermita de la Paz;Iglesia de San Antonio
+Duro;Patrimonio;¿A qué estilo arquitectónico pertenece la Iglesia de la Asunción de Puertollano, construida en el siglo XVI?;Gótico tardío y Renacimiento;Románico puro;Barroco churrigueresco;Neoclásico
+Fácil;Patrimonio;¿Qué patrona de la ciudad tiene su ermita al inicio del Paseo de San Gregorio?;La Virgen de Gracia;La Virgen del Carmen;La Virgen de la Candelaria;La Virgen del Prado
+Medio;Patrimonio;¿Sobre qué antigua edificación religiosa (templaria/medieval) se cree que se asienta la actual Iglesia de la Asunción?;Sobre los restos de un antiguo castillo;Sobre una mezquita califal;Sobre una sinagoga;Sobre unas termas romanas
+Duro;Patrimonio;¿Qué antiguo edificio, hoy conservatorio y oficina de turismo, se construyó en el s. XIX para aprovechar las aguas termales?;La Casa de Baños;El Balneario Real;El Palacio de Cristal;Las Termas de Calatrava
+Fácil;Patrimonio;¿Qué moderno edificio de cristal y acero acoge congresos y ferias comerciales en la ciudad?;El Pabellón de Ferias y Congresos (La Central);El Palacio de la Ópera;El Centro Pompidou;El Palacio de los Deportes
+Medio;Patrimonio;¿Qué institución pública tiene su sede en el imponente edificio de la Plaza de la Constitución?;El Ayuntamiento de Puertollano;La Diputación Provincial;La Junta de Comunidades;El Tribunal Supremo
+Duro;Patrimonio;¿Qué nombre recibe el histórico auditorio municipal donde se realizan obras de teatro y conciertos?;Auditorio Municipal Pedro Almodóvar;Teatro Rojas;Gran Teatro de la Energía;Auditorio Nacional de La Mancha
+Fácil;Patrimonio;¿Hay algún castillo medieval en perfecto estado dentro del núcleo urbano de Puertollano?;No, no hay ninguno;Sí, el Castillo de Calatrava;Sí, el Alcázar del Rey;Sí, el Castillo Templario
+Medio;Patrimonio;¿Qué color de piedra (cuarcita) es muy típico en los muros y zócalos de las construcciones antiguas de la zona?;"La ""piedra cuarcita"" (tonos ocres, rojizos y grises)";Mármol blanco;Granito negro;Piedra caliza blanca
+Fácil;Fuente Agria;¿Qué famosa fuente es el símbolo por excelencia y el punto de encuentro de Puertollano?;La Fuente Agria;La Fuente de Cibeles;La Fuente de los Leones;La Fuente Luminosa
+Medio;Fuente Agria;¿A qué sabe el agua de la Fuente Agria?;A hierro (es agua ferruginosa);A limón;Es muy dulce;A sal
+Duro;Fuente Agria;¿En qué año se construyó la estructura octogonal actual (el templete) de la Fuente Agria?;En 1905;En 1800;En 1950;En el año 2000
+Fácil;Fuente Agria;¿Se puede beber libremente el agua de la Fuente Agria hoy en día?;Sí, los vecinos van con botellas a llenarla;No, es venenosa;Solo los festivos;Solo con receta médica
+Medio;Paseo;¿Cómo se llama el larguísimo paseo arbolado que divide la ciudad y donde está la Fuente Agria?;Paseo de San Gregorio;Paseo del Prado;La Rambla;Avenida de la Constitución
+Duro;Paseo;¿Cuántos caños de agua tiene tradicionalmente la Fuente Agria?;Cuatro caños;Dos caños;Un caño central;Ocho caños
+Fácil;Paseo;¿Qué adorno floral en forma de reloj marca la hora al lado de la Casa de Baños?;El Reloj de Flores;El Reloj de Sol;El Reloj de Arena gigante;El Big Ben Manchego
+Medio;Paseo;¿Qué tipo de mercado se instala a lo largo del Paseo de San Gregorio durante las fiestas navideñas o medievales?;Mercadillos de artesanía y casetas;Mercado de ganado;Bolsa de valores;Mercado de mayoristas de pescado
+Duro;Fuente Agria;¿Qué médico documentó por primera vez las propiedades curativas de esta agua en el siglo XVII?;El Doctor Alfonso Limón Montero;Gregorio Marañón;Santiago Ramón y Cajal;Hipócrates
+Fácil;Paseo;¿Qué elemento del Paseo de San Gregorio suele iluminarse y decorarse espectacularmente en diciembre?;El Árbol de Navidad gigante y las luces;La Fuente Agria de rojo;El Ayuntamiento con láseres;Las estatuas de bronce
+Fácil;Fiestas;¿Cuál es la tradición más antigua de Puertollano, celebrada ininterrumpidamente desde 1348?;El Santo Voto;Los Carnavales;La Semana Santa;La Feria de Mayo
+Medio;Fiestas;"¿Qué catástrofe motivó a los supervivientes de la ciudad a prometer el ""Santo Voto""?";La peste bubónica (Peste Negra);La Guerra de la Independencia;Un gran terremoto;Una erupción volcánica
+Duro;Fiestas;¿Qué se cocina y se reparte gratuitamente a todos los ciudadanos el día del Santo Voto?;Guiso de carne de vaca con patatas y panecillos;Migas con chorizo;Paella gigante;Chocolate con churros
+Fácil;Fiestas;¿Qué mes acoge la famosa feria taurina, casetas y atracciones en el Recinto Ferial?;Mayo (Feria de Mayo);Abril;Agosto;Octubre
+Medio;Fiestas;¿El día de qué virgen se celebra en septiembre con una multitudinaria ofrenda floral?;La Virgen de Gracia (8 de septiembre);La Virgen Blanca;La Virgen de la Asunción;La Macarena
+Duro;Fiestas;¿Qué tradición gastronómica familiar se celebra en el campo (en la Dehesa Boyal) el domingo siguiente al de Resurrección?;El Día del Hornazo;La romería del Rocío;El día del Pisto;El jueves lardero
+Fácil;Fiestas;"¿Qué es un ""hornazo"", el alimento estrella de esa celebración campestre?";Una torta de masa dulce con huevos cocidos incrustados;Un asado de cerdo entero;Una sopa de ajo picante;Un helado de turrón
+Medio;Fiestas;¿En qué fecha se celebra el Día del Minero, homenajeando el pasado de la ciudad?;El 4 de diciembre (Santa Bárbara);El 1 de mayo (Día del Trabajador);El 8 de septiembre;El 25 de diciembre
+Duro;Fiestas;"¿Dónde tiene lugar tradicionalmente el encendido de la gran ""traca"" final de las fiestas de septiembre?";Junto a la Ermita de la Virgen de Gracia y el Paseo;En el estadio de fútbol;En el castillete del Pozo Norte;En la plaza de toros
+Fácil;Fiestas;¿Participan caballos en la procesión o los eventos de la Feria de Mayo?;Sí, hay paseos de caballos y enganches en el ferial;No, están prohibidos;Solo burros;Solo en el circo
+Fácil;Gastronomía;¿Qué plato frío manchego a base de pan mojado, tomate, aceite y ajo es muy popular en verano?;El asadillo / o el Salmorejo manchego;El gazpacho andaluz;La escalivada;La vichyssoise
+Medio;Gastronomía;¿Qué verdura es la base del pisto manchego clásico que se sirve en los bares locales?;Tomate y pimiento rojo/verde;Berenjena cruda;Lechuga y zanahoria;Brócoli y coliflor
+Duro;Gastronomía;¿Qué plato tradicional de Cuaresma se hace con bacalao asado, pimientos secos, patatas y ajos desmigados?;El Tiznao;Ajoarriero;Atascaburras;Marmitako
+Fácil;Gastronomía;¿De qué animal proviene la leche con la que se hace el queso con Denominación de Origen que se come aquí?;De oveja (Queso Manchego);De cabra;De vaca;De búfala
+Medio;Gastronomía;¿Qué plato de campo y pastores, hecho con pan duro, panceta y uvas, no falta en los bares de Puertollano en invierno?;Las migas manchegas;La caldereta;El cocido;Los callos
+Duro;Gastronomía;¿Qué hongo muy apreciado (Criadilla de tierra) se busca en primavera por los campos del sur de Puertollano?;La Terfezia (Turma o Criadilla);La trufa negra del Perigord;El champiñón de París;El boletus edulis
+Fácil;Gastronomía;¿Qué dulce frito, con forma de flor y hecho con un molde de hierro, es típico en Carnaval y Semana Santa?;Las flores manchegas;Los buñuelos de viento;Los churros;Los pestiños
+Medio;Gastronomía;¿Qué bebida refrescante de verano se hace mezclando vino, azúcar, limón y trozos de fruta (como el melocotón)?;La zurra (o limonada);La sangría;El rebujito;El tinto de verano puro
+Duro;Gastronomía;¿Qué nombre reciben los panecillos bendecidos que se entregan a los niños el día de la festividad histórica de mayo?;Panecillos del Santo Voto;Tortas de la Virgen;Roscos del Minero;Hogazas de Gracia
+Fácil;Gastronomía;¿Qué aceite de oliva se consume principalmente en los hogares de Puertollano?;Aceite de Oliva Virgen Extra (AOVE) de la provincia (Cornicabra/Picual);Aceite de Girasol;Aceite de Palma;Aceite de Coco
+Fácil;Deportes;¿Cómo se llama el equipo histórico de fútbol de la ciudad, que viste de azul?;Calvo Sotelo Puertollano C.F. (o CD Puertollano);Real Puertollano;Puertollano United;Atlético Minero
+Medio;Deportes;¿En qué estadio municipal de césped natural juega actualmente el equipo de fútbol local?;Estadio Ciudad de Puertollano (El Nuevo Cerrú);Santiago Bernabéu;Camp Nou;Estadio del Pozo Norte
+Duro;Deportes;¿En qué categoría del fútbol español pasó el Calvo Sotelo su época dorada jugando contra grandes equipos?;En Segunda División;En Primera División;Siempre en Tercera;En la Champions League
+Fácil;Deportes;¿Qué deporte de cancha pequeña cubierta ha dado muchísimos éxitos y afición a Puertollano?;El Fútbol Sala;El Baloncesto;El Bádminton;El Voleibol
+Medio;Deportes;¿Cómo se llama el pabellón polideportivo principal donde se juegan los grandes partidos a cubierto?;Pabellón Antonio Rivilla;Palau Blaugrana;Wizink Center;Fernando Buesa Arena
+Duro;Deportes;¿Qué leyenda del fútbol sala español e internacional se retiró jugando en Puertollano?;Joan Linares;Paulo Roberto;Luis Amado;Ricardinho
+Fácil;Deportes;¿Qué otro club deportivo de la ciudad destaca en las competiciones de atletismo y maratones?;Club Corricollano (o clubes locales de atletismo);Club Runners Madrid;Club Atlético Minero;Club de Andarines
+Medio;Deportes;¿Qué mujer de Puertollano es una destacada jugadora de fútbol en la Primera División Femenina?;Sheila García;Alexia Putellas;Jenni Hermoso;Aitana Bonmatí
+Duro;Deportes;¿Qué ciclista afincado y criado en Puertollano fue una leyenda compitiendo en el Tour y la Vuelta a España?;Ninguno es históricamente de primer nivel mundial exclusivo de Puertollano (Pregunta trampa común, aunque hay grandes amateurs);Miguel Indurain;Pedro Delgado;Alberto Contador
+Fácil;Deportes;¿De qué color es la camiseta principal del Calvo Sotelo Puertollano C.F.?;Azul;Roja y blanca;Verde;Amarilla
+Fácil;Personajes;"¿Qué famosa escritora, autora de ""El tiempo entre costuras"", nació en Puertollano?";María Dueñas;Almudena Grandes;Carmen Martín Gaite;Isabel Allende
+Medio;Personajes;¿Qué histórico portero de la selección española de fútbol pasó su infancia y se crió en Puertollano?;Santiago Cañizares;Iker Casillas;Andoni Zubizarreta;David de Gea
+Duro;Personajes;¿Qué prestigiosa fotógrafa, nacida en Puertollano, fue la primera española en entrar en la Agencia Magnum?;Cristina García Rodero;Ouka Leele;Isabel Muñoz;Gervasio Sánchez
+Fácil;Personajes;¿Qué cineasta manchego, aunque no es de Puertollano (es de Calzada de Cva.), da nombre al auditorio del pueblo?;Pedro Almodóvar;Alejandro Amenábar;Luis Buñuel;Juan Antonio Bayona
+Medio;Personajes;¿Qué político, que fue Ministro de Fomento y Presidente de Castilla-La Mancha, es de Puertollano?;José María Barreda (nacido en C.Real pero vinculado) o Mayte Fernández (alcaldesa);José Bono (no es de aquí);Emiliano García-Page;María Dolores de Cospedal
+Duro;Personajes;¿Qué gran director de orquesta y compositor nacido en Puertollano fundó la Orquesta Sinfónica de RTVE?;Odón Alonso;Luis Cobos;Pablo Sorozábal;Joaquín Rodrigo
+Fácil;Personajes;"¿Qué humorista y actor del dúo ""Cruz y Raya"" estuvo muy vinculado a la vecina Ciudad Real pero actuaba mucho en Puertollano?";José Mota;Andreu Buenafuente;David Broncano;Berto Romero
+Medio;Personajes;¿Qué deportista de Puertollano destacó en las artes marciales mixtas o deportes de contacto (Jiu Jitsu/Karate) a nivel nacional?;Paqui Moreno (Pionera y campeona de Judo/Jiu Jitsu);Lydia Valentín;Mireia Belmonte;Carolina Marín
+Duro;Personajes;¿Qué músico callejero y figura entrañable, ya fallecido, recorría el Paseo tocando su armónica y es leyenda local?;"El ""Ciego de la Armónica"" (o personajes populares del folclore local)";El Langui;Manolo el del Bombo;El risitas
+Fácil;Personajes;"¿A quién dedicó la fotógrafa Cristina García Rodero su obra más famosa sobre tradiciones ""España oculta""?";A los pueblos y gentes de España (incluido su entorno manchego);A la Familia Real;A los políticos;A los turistas
+Fácil;Cultura;¿Qué metal se extraía junto con el carbón en las minas, siendo muy tóxico?;El plomo;El hierro;El aluminio;El cobre
+Medio;Cultura;¿Qué nombre reciben coloquialmente los trenes de transporte de carbón o mercancías de vía estrecha?;Vagonetas o Ferrocarriles mineros;Ave;Talgo;Tranvías
+Duro;Cultura;¿En qué fecha ocurrió la catástrofe aérea de un avión militar que se estrelló cerca de Puertollano (Cerro de la Muerte) en los años 50?;Nunca ocurrió un accidente aéreo famoso, la tragedia fue en la mina de 1958;En 1980;En 2001;En 1936
+Fácil;Curiosidades;¿Hay playas en Puertollano?;No, no tiene mar (es interior);Sí, es una ciudad costera;Sí, playas de arena blanca;Tiene mar pero no playa
+Medio;Curiosidades;¿Qué elemento geológico extinto se puede ver en los alrededores de Puertollano (Campo de Calatrava)?;Volcanes dormidos o extintos (maares);Glaciares de hielo;Fiordos noruegos;Cataratas gigantes
+Duro;Curiosidades;¿Qué nombre recibe la falla geológica y yacimiento paleontológico donde se han encontrado restos vegetales del Carbonífero en el pueblo?;La Cuenca Estefaniense de Puertollano / Monumento Natural del Carbonífero;Falla de San Andrés;Parque Jurásico Manchego;Yacimiento de Atapuerca
+Fácil;Cultura;¿A qué ciudad española está conectado Puertollano en apenas 1 hora y 10 minutos gracias al AVE?;A Madrid;A Barcelona;A Bilbao;A Santiago de Compostela
+Medio;Cultura;¿Qué importante premio de pintura se entrega en el Salón de Arte de la ciudad?;El Premio del Salón de Arte de Puertollano (o Premios locales de Cultura);El Premio Velázquez;El Premio Goya;El Premio Planeta
+Duro;Curiosidades;¿Cómo se llamaba el poblado minero, hoy casi desaparecido, que estaba situado a las afueras junto al castillete de Santa María?;Poblado de Asdrúbal;Poblado de San Isidro;Poblado de la Paz;Poblado del Carmen
+Fácil;Curiosidades;¿Cuál es el gentilicio de los habitantes de Puertollano?;Puertollaneros / Puertollanenses;Puertollanos;Puertenses;Llaneros
