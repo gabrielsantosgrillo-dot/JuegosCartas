@@ -918,7 +918,6 @@ Fácil;Almodóvar del Campo;¿Qué orden religiosa femenina tiene un histórico 
 Medio;Almodóvar del Campo;¿Qué famosa escritora y santa impulsó la fundación del convento de Carmelitas en Almodóvar?;Santa Teresa de Jesús;Santa Clara de Asís;Santa Catalina de Siena;Santa Rita
 Fácil;Almodóvar del Campo;¿Cuál es el principal uso histórico de los pastos del Valle de Alcudia?;La ganadería ovina (oveja merina);El cultivo de arroz;La plantación de plátanos;La cría de caballos de carreras
 Medio;Almodóvar del Campo;¿Cómo se llaman las vías por donde los pastores trasladaban el ganado hacia el Valle de Alcudia?;Vías pecuarias o cañadas reales;Autovías ganaderas;Caminos de hierro;Rutas de la seda
-Duro;Almodóvar del Campo;¿Qué tipo de fenómeno geológico antiguo es muy común en la región volcánica del Campo de Calatrava y Almodóvar?;Los maares (lagunas volcánicas);Los géiseres activos;Los glaciares alpinos;Las fallas tectónicas
 Medio;Almodóvar del Campo;¿Cómo se llama la pedanía de Almodóvar famosa por su pasado minero y su viaducto?;Minas del Horcajo;Tirteafuera;San Benito;Navacerrada
 Duro;Almodóvar del Campo;¿Qué metal se extraía principalmente en las Minas del Horcajo a finales del siglo XIX?;Plomo y plata;Oro;Uranio;Cobre
 Fácil;Almodóvar del Campo;¿Cómo se llamaba la importante ciudad romana cuyos restos están en la pedanía de La Bienvenida?;Sisapo;Segóbriga;Tarraco;Itálica
@@ -935,7 +934,6 @@ Medio;Almodóvar del Campo;¿De qué raza de oveja debe provenir la leche para h
 Duro;Almodóvar del Campo;¿Qué bebida típica se elaboraba antiguamente mezclando vino, azúcar, limón y frutas en las fiestas locales?;Zurra o limonada manchega;Sangría catalana;Agua de Valencia;Rebujito
 Fácil;Almodóvar del Campo;¿Dónde se ubica el edificio del Ayuntamiento de Almodóvar del Campo?;En la Plaza Mayor;En las afueras del pueblo;En el Valle de Alcudia;Junto a la estación de tren
 Medio;Almodóvar del Campo;¿Qué edificio cultural de Almodóvar del Campo fue construido a principios del siglo XX y restaurado recientemente?;El Teatro Municipal;El Palacio de Congresos;El Museo Guggenheim local;La Plaza de Toros techada
-Fácil;Almodóvar del Campo;¿Qué museo de la localidad está dedicado al santo nacido en 1499?;Museo de San Juan de Ávila (Casa Natal);Museo Arqueológico Nacional;Museo de Arte Contemporáneo;Museo del Prado del Sur
 Medio;Almodóvar del Campo;¿De qué siglo data la portada principal (la de la Asunción) de la Iglesia parroquial?;Siglo XVI (Renacimiento);Siglo XII (Románico);Siglo XIX (Neoclásico);Siglo XX (Modernismo)
 Duro;Almodóvar del Campo;¿Qué archivo de gran valor histórico se guarda en Almodóvar del Campo?;El Archivo Histórico Municipal (con documentos desde el s. XIII);El Archivo de Indias;El Archivo de la Corona de Aragón;El Archivo Secreto Vaticano
 Fácil;Almodóvar del Campo;¿Qué tipo de turismo atrae principalmente el Valle de Alcudia?;Turismo rural y de naturaleza;Turismo de sol y playa;Turismo de nieve;Turismo de grandes rascacielos
@@ -943,46 +941,40 @@ Medio;Almodóvar del Campo;¿Qué árbol es el más característico y abundante 
 Duro;Almodóvar del Campo;¿Qué animal en peligro de extinción tiene en Sierra Madrona uno de sus últimos refugios ibéricos?;El lince ibérico;El oso pardo;El urogallo;El quebrantahuesos
 Fácil;Almodóvar del Campo;¿Qué actividad tradicional y deportiva atrae a muchos visitantes a los montes de Almodóvar?;La caza mayor (monterías);El surf;El esquí alpino;El submarinismo
 Medio;Almodóvar del Campo;¿Qué gran ave rapaz es fácil de observar sobrevolando las sierras de Almodóvar?;El águila imperial ibérica;El cóndor andino;El halcón peregrino;La gaviota
-Fácil;Almodóvar del Campo;¿Cuál de las siguientes es otra de las pedanías de Almodóvar del Campo?;San Benito;Manzanares;Ruidera;Cabañeros
+Fácil;Almodóvar del Campo;¿Cuál de las siguientes es una de las pedanías de Almodóvar del Campo?;San Benito;Manzanares;Ruidera;Cabañeros
 Medio;Almodóvar del Campo;"¿Qué nombre recibe la pedanía de Almodóvar conocida por sus fuentes y entorno natural, cuyo nombre significa ""aguas abundantes""?";Fontanosas;Retamar;Viñuela;La Bienvenida
 Duro;Almodóvar del Campo;¿Qué pedanía de Almodóvar creció históricamente como parada de pastores en la Cañada Real Soriana Oriental?;Veredas;Sisapo;Tirteafuera;Minas del Horcajo
 Fácil;Almodóvar del Campo;¿Cómo se llama el arte de trabajar el esparto, tradicional en la comarca?;Artesanía del esparto;Orfebrería;Alfarería;Vidrio soplado
-Medio;Almodóvar del Campo;¿Qué patrona venera Almodóvar del Campo durante sus fiestas de septiembre?;La Virgen del Carmen;La Virgen del Pilar;La Virgen de la Blanca;La Virgen de Guadalupe
-Fácil;Almodóvar del Campo;¿Qué otra virgen comparte devoción y da nombre a otra de las fiestas locales?;La Virgen de las Candelas / Candelaria;La Macarena;La Virgen del Rocío;La Almudena
+Medio;Almodóvar del Campo;¿Qué patrona venera Almodóvar del Campo?;La Virgen del Carmen;La Virgen del Pilar;La Virgen de la Blanca;La Virgen de Guadalupe
 Medio;Almodóvar del Campo;¿Qué se suele encender en las calles de Almodóvar la noche de la Candelaria?;Hogueras (candelas);Fuegos artificiales;Farolillos de papel;Antorchas olímpicas
 Duro;Almodóvar del Campo;¿En qué año fue canonizado San Juan de Ávila por el Papa Benedicto XVI?;2012;1999;1950;2020
 Fácil;Almodóvar del Campo;¿Qué ruta turística y literaria pasa por los alrededores de Almodóvar del Campo?;La Ruta de Don Quijote;La Ruta de la Plata;El Camino de Santiago Francés;La Ruta de los Castillos del Loira
 Medio;Almodóvar del Campo;¿Qué infraestructura abandonada en Minas del Horcajo se usa hoy para rutas de senderismo y BTT?;El trazado del antiguo ferrocarril minero;Un aeropuerto militar;Una autopista de peaje;Un canal de navegación
 Duro;Almodóvar del Campo;¿Quién diseñó el famoso túnel minero de Minas del Horcajo?;Ingenieros de la época (a menudo ligados a empresas francesas/belgas);Gustave Eiffel;Santiago Calatrava;Juan de Herrera
 Fácil;Almodóvar del Campo;¿En qué época del año el Valle de Alcudia se tiñe de verde espectacular atrayendo a fotógrafos?;Primavera;Pleno verano (agosto);Invierno bajo cero;Otoño tardío
-Medio;Almodóvar del Campo;¿Qué hortaliza encurtida, típica de una localidad cercana, se sirve mucho en los bares de Almodóvar?;Berenjenas de Almagro;Pimientos de Padrón;Cebollas de Figueres;Alcachofas de Benicarló
 Fácil;Almodóvar del Campo;¿Qué postre típico manchego, similar a una tortilla dulce o frita, se consume en Carnaval en la zona?;Flores manchegas / Frutas de sartén;Ensaimada;Crema catalana;Tarta de Santiago
 Medio;Almodóvar del Campo;¿Qué ermita de Almodóvar se encuentra en un cerro ofreciendo grandes vistas del pueblo?;Ermita de Santa Brígida;Ermita del Rocío;Ermita de Covadonga;Ermita de San Isidro
 Duro;Almodóvar del Campo;¿Qué río atraviesa parte de la comarca y da nombre a uno de sus afluentes cercanos (río Tirteafuera)?;Río Guadiana (cuenca);Río Ebro;Río Tajo;Río Guadalquivir
 Fácil;Almodóvar del Campo;¿Cómo es el clima en Almodóvar del Campo durante los meses de julio y agosto?;Muy caluroso y seco;Muy frío y lluvioso;Templado y con nieve;Tropical húmedo
 Medio;Almodóvar del Campo;¿Qué sierra hace de frontera natural entre el Valle de Alcudia y Andalucía?;Sierra Madrona;Sierra Nevada;Picos de Europa;Sistema Central
 Duro;Almodóvar del Campo;"¿Qué rey otorgó el título de ""Ciudad"" a Almodóvar del Campo en 1879?";Alfonso XII;Carlos III;Isabel II;Felipe VI
-Fácil;Almodóvar del Campo;¿Qué institución organiza y promueve el teatro y la cultura en el centro de Almodóvar?;El Ayuntamiento en el Teatro Municipal;El Museo del Prado;El Gobierno Central;La Diputación de Barcelona
+Fácil;Almodóvar del Campo;¿Lugar donde se promueve el teatro y la cultura?;Teatro Municipal;Centro Social Polivalente;Palacio del Duque;La Sindical
 Medio;Almodóvar del Campo;"¿Qué ciervo es el protagonista del ""espectáculo"" sonoro en otoño en Sierra Madrona?";El ciervo común (La Berrea);El corzo;El gamo;El reno
 Fácil;Almodóvar del Campo;¿Se puede visitar Almodóvar del Campo en tren?;Hay estación de AVE muy cerca, en Puertollano;Sí, tiene estación de AVE propia;No, no hay trenes en la provincia;Solo en tren de mercancías
-Medio;Almodóvar del Campo;¿Cómo se les llama a los habitantes de Almodóvar del Campo?;Almodovareños;Almodovarenses;Almodovaries;Almodovares
 Duro;Almodóvar del Campo;¿Qué cueva en Sierra Madrona contiene pinturas rupestres prehistóricas de arte esquemático?;Cueva de la Venda del Gitano (y Peña Escrita cercanas);Cueva de Altamira;Cueva de Nerja;Cueva del Soplao
 Fácil;Almodóvar del Campo;¿Qué plato tradicional manchego se elabora con tomate, pimiento, calabacín y cebolla?;Pisto manchego;Marmitako;Salmorejo;Escalivada
 Medio;Almodóvar del Campo;¿Qué sector económico ha sido tradicionalmente el más importante del pueblo junto a la ganadería?;La agricultura (cereales y olivo);La pesca marítima;La fabricación de coches;La alta tecnología
 Duro;Almodóvar del Campo;¿Dónde reposan los restos de San Juan de Ávila, el patrón del clero secular español?;En Montilla (Córdoba);En Almodóvar del Campo;En el Vaticano;En la Catedral de Toledo
 Fácil;Almodóvar del Campo;¿Qué prenda tradicional usan los pastores manchegos para protegerse del frío y la lluvia?;La manta o capa de pastor;Un chubasquero de plástico;Un traje de neopreno;Un abrigo de plumas
 Medio;Almodóvar del Campo;¿Qué asado de verduras al horno, principalmente pimientos rojos y ajos, es una tapa típica aquí?;Asadillo manchego;Escalivada catalana;Zarangollo murciano;Papas arrugadas
-Duro;Almodóvar del Campo;¿Qué antigua cruz de piedra marca uno de los cruces de caminos históricos del pueblo?;La Cruz de Piedra (o Cruz de los Caídos/Término);La Cruz de Caravaca;La Cruz de Borgoña;La Cruz de Santiago
 Fácil;Almodóvar del Campo;¿Qué tipo de turismo fomenta el Parque Natural de noche debido a su cielo oscuro?;Astroturismo (Starlight);Espeleología submarina;Turismo de borrachera;Esquí nocturno
-Medio;Almodóvar del Campo;¿Qué certificación astronómica internacional posee el Valle de Alcudia y Sierra Madrona?;Destino Starlight;Patrimonio de la Humanidad UNESCO;Bandera Azul;Geoparque Europeo
+Medio;Almodóvar del Campo;¿Qué certificación astronómica internacional posee el Valle de Alcudia y Sierra Madrona?;Destino Starlight;Patrimonio de la Humanidad UNESCO;Bandera Azul;Parque Europeo
 Fácil;Almodóvar del Campo;¿Se puede visitar el interior de la casa donde nació San Juan de Ávila?;Sí, está musealizada y abierta a peregrinos;No, fue destruida;Es una residencia privada cerrada;Es un restaurante
-Medio;Almodóvar del Campo;¿Con qué elemento se protegen los corredores y se delimita el recorrido en los encierros de Almodóvar?;Con talanqueras de hierro y madera;Con muros de piedra;Con cristales blindados;Con cuerdas de esparto
+Medio;Almodóvar del Campo;¿Con qué elemento se protegen los corredores y se delimita el recorrido en los encierros de Almodóvar?;Con talanqueras de hierro ;Con muros de piedra;Con cristales blindados;Con cuerdas de esparto
 Duro;Almodóvar del Campo;¿Quién fue la arqueóloga pionera que comenzó las excavaciones intensivas en La Bienvenida (Sisapo)?;Carmen Fernández Ochoa;María Ángeles Querol;Mary Leakey;Howard Carter
 Fácil;Almodóvar del Campo;¿Qué planta espinosa florece en morado y es muy típica de los campos secos en verano en La Mancha?;El cardo;La rosa de las arenas;El nenúfar;La orquídea silvestre
-Medio;Almodóvar del Campo;¿Qué batalla clave en 1212 abrió las puertas de la reconquista de toda esta región al sur de Ciudad Real?;Batalla de las Navas de Tolosa;Batalla de Lepanto;Batalla de Guadalete;Batalla de Almansa
 Duro;Almodóvar del Campo;¿Qué postre o dulce se toma típicamente en La Mancha, consistente en masa frita recubierta de miel?;Hojuelas o pestiños;Crepes;Churros de chocolate;Macarons
 Fácil;Almodóvar del Campo;¿Cuál de las pedanías de Almodóvar es famosa por celebrar la romería de la Virgen de las Cruces?;Valle de Alcudia (diversas pedanías asisten);Es en Daimiel, no en Almodóvar;En Puertollano;En Ciudad Real
-Medio;Almodóvar del Campo;¿Qué escudo se puede observar en muchas de las fachadas antiguas de las casas señoriales del pueblo?;El escudo de la Orden de Calatrava (Cruz flordelisada);El escudo del F.C. Barcelona;El escudo del Imperio Romano;El águila bicéfala austriaca
 Duro;Almodóvar del Campo;¿Qué especie de roble, menos común que la encina, se puede encontrar en las zonas más húmedas de Sierra Madrona?;El quejigo o melojo (Quercus pyrenaica);El baobab;El roble americano;El olmo
 Fácil;Almodóvar del Campo;¿Por qué carretera nacional principal se suele acceder a la zona de Almodóvar y Puertollano desde Ciudad Real?;N-420;A-4;AP-7;N-340
 Medio;Almodóvar del Campo;"¿Qué título ostentaba Almodóvar del Campo antes de recibir el título de ""Ciudad""?";Villa;Aldea;Principado;Condado
@@ -991,9 +983,7 @@ Fácil;Almodóvar del Campo;¿Cómo se llama la choza cónica de piedra que usab
 Medio;Almodóvar del Campo;¿Qué animal es esencial para el cuidado y manejo de los rebaños de ovejas en el Valle de Alcudia?;El perro mastín (y el carea);El gato montés;El caballo andaluz;El halcón
 Duro;Almodóvar del Campo;¿En qué año fue declarada la Iglesia de Nuestra Señora de la Asunción como Bien de Interés Cultural (BIC)?;1992;1931;2010;No es BIC
 Fácil;Almodóvar del Campo;¿Qué comunidad autónoma se encuentra cruzando Sierra Madrona hacia el sur?;Andalucía (Provincia de Jaén/Córdoba);Extremadura;Murcia;Comunidad Valenciana
-Medio;Almodóvar del Campo;¿Qué tipo de carne de caza es muy habitual en los restaurantes locales debido a las monterías?;Carne de jabalí y venado (ciervo);Carne de oso;Carne de cocodrilo;Carne de avestruz
-Duro;Almodóvar del Campo;¿Cuál es el gentilicio formal de los habitantes de la pedanía de Tirteafuera?;Tirteafuereños;Tirteanos;Afuereños;Tirteños
-Fácil;Almodóvar del Campo;¿Cómo se llama la flor violeta de la cual se extrae la especia más cara del mundo, cultivada también en la provincia de Ciudad Real?;Rosa del Azafrán;Lavanda;Romero;Tomillo
+Duro;Almodóvar del Campo;¿Cuál es el gentilicio formal de los habitantes de la pedanía de Tirteafuera?;Tirteafuereños;Tirteanos;Tiranos;Tirteños
 Medio;Almodóvar del Campo;¿Qué hacen las peñas taurinas de Almodóvar durante las fiestas de septiembre?;Se reúnen en sus locales para comer, beber y disfrutar antes y después de los encierros;Cierran sus puertas;Se van de vacaciones a la playa;Protestan contra los toros
 Duro;Almodóvar del Campo;¿En qué año se fundó el convento de Nuestra Señora de Gracia de las Carmelitas Descalzas en Almodóvar?;1599;1492;1700;1850
 Fácil;Almodóvar del Campo;¿Qué nombre recibe el pan con forma ovalada, miga dura y crujiente muy valorado en La Mancha?;Pan de Cruz;Baguette;Pan de pita;Pan de molde
@@ -1099,5 +1089,182 @@ Medio;Puertollano;¿Qué elemento geológico extinto se puede ver en los alreded
 Duro;Puertollano;¿Qué nombre recibe la falla geológica y yacimiento paleontológico donde se han encontrado restos vegetales del Carbonífero en el pueblo?;La Cuenca Estefaniense de Puertollano / Monumento Natural del Carbonífero;Falla de San Andrés;Parque Jurásico Manchego;Yacimiento de Atapuerca
 Fácil;Puertollano;¿A qué ciudad española está conectado Puertollano en apenas 1 hora y 10 minutos gracias al AVE?;A Madrid;A Barcelona;A Bilbao;A Santiago de Compostela
 Medio;Puertollano;¿Qué importante premio de pintura se entrega en el Salón de Arte de la ciudad?;El Premio del Salón de Arte de Puertollano (o Premios locales de Cultura);El Premio Velázquez;El Premio Goya;El Premio Planeta
-Duro;Puertollano;¿Cómo se llamaba el poblado minero, hoy casi desaparecido, que estaba situado a las afueras junto al castillete de Santa María?;Poblado de Asdrúbal;Poblado de San Isidro;Poblado de la Paz;Poblado del Carmen
+Duro ;Puertollano;¿Cómo se llamaba el poblado minero, hoy casi desaparecido, que estaba situado a las afueras junto al castillete de Santa María?;Poblado de Asdrúbal;Poblado de San Isidro;Poblado de la Paz;Poblado del Carmen
 Fácil;Puertollano;¿Cuál es el gentilicio de los habitantes de Puertollano?;Puertollaneros / Puertollanenses;Puertollanos;Puertenses;Llaneros
+Fácil;Puertollano;¿Cómo se llama el barrio de Puertollano construido originalmente para albergar a los trabajadores e ingenieros del complejo petroquímico?;El Poblado;El Carmen;Cañamares;Santa Ana
+Medio;Puertollano;¿Qué céntrica calle peatonal es el principal eje comercial de Puertollano?;Calle Aduana;Calle Ancha;Calle Mayor;Gran Vía
+Fácil;Puertollano;¿Qué popular barrio de Puertollano lleva el nombre de la patrona de los marineros?;El Carmen;Las Mercedes;La Constitución;San José
+Medio;Puertollano;¿Cómo se llama la barriada situada al este de la ciudad, muy conocida por su fuerte pendiente y su pasado minero?;El Pino;Las Pocitas;El Villar;Fraternidad
+Duro;Puertollano;¿Qué plaza emblemática, cercana al Ayuntamiento, fue tradicionalmente el centro del comercio local antes de la expansión moderna?;Plaza de la Constitución;Plaza de Mariana Pineda;Plaza de la Asunción;Plaza del Duque
+Fácil;Puertollano;¿Qué edificio de la ciudad cuenta con un reloj floral en sus jardines exteriores?;La Casa de Baños;El Ayuntamiento;La Iglesia de la Asunción;La Estación de AVE
+Medio;Puertollano;¿Cómo se llama el escenario al aire libre situado en el Paseo de San Gregorio donde suele tocar la banda municipal?;La Concha de la Música;El Anfiteatro;El Templete Romano;La Pérgola del Carbón
+Duro;Puertollano;¿Qué nombre popular recibe el gran mercado de abastos cubierto situado en el centro de Puertollano?;Mercado Municipal de Abastos;Lonja de Calatrava;Mercado de San Miguel;Galerías Mineras
+Fácil;Puertollano;¿Cómo se llama el principal Hospital público de Puertollano que da servicio a toda la comarca?;Hospital Santa Bárbara;Hospital Virgen de Gracia;Hospital San Juan de Ávila;Hospital del Carmen
+Medio;Puertollano;¿Cuál de los siguientes es el nombre de un histórico Instituto de Educación Secundaria (IES) de Puertollano?;IES Fray Andrés;IES Cervantes;IES Machado;IES Góngora
+Duro;Puertollano;¿Qué otro instituto de la localidad rinde homenaje con su nombre al astrónomo italiano que defendió el heliocentrismo?;IES Galileo Galilei;IES Copérnico;IES Newton;IES Kepler
+Fácil;Puertollano;¿Cómo se llama el parque urbano situado al este de Puertollano que cuenta con un estanque y aves acuáticas?;Parque de las Pocitas del Prior;Parque del Retiro;Jardines del Prado;Parque de Cabañeros
+Medio;Puertollano;¿Qué río, afluente del Guadiana, nace cerca de Puertollano y discurre hacia el noroeste?;Río Tirteafuera;Río Jabalón;Río Bullaque;Río Záncara
+Duro;Puertollano;¿Qué nombre recibe el paso natural en la montaña que conecta históricamente Puertollano con el sur peninsular (Andalucía)?;Puerto de Valderrepisa (y Valle de Alcudia);Desfiladero de Despeñaperros;Puerto del Pico;Paso de Roncesvalles
+Fácil;Puertollano;¿Qué institución cultural local ofrece enseñanzas profesionales de música?;El Conservatorio Profesional de Música Pablo Sorozábal;La Academia de Operación Triunfo;El Ateneo Musical;La Escuela de Bellas Artes
+Medio;Puertollano;"¿Qué rey español concedió a Puertollano el título oficial de ""Ciudad""?";Alfonso XIII;Felipe II;Carlos III;Alfonso XII
+Duro;Puertollano;¿En qué año otorgó Alfonso XIII el título de ciudad a Puertollano, gracias a su brutal desarrollo industrial?;En 1925;En 1890;En 1950;En 1978
+Fácil;Puertollano;¿Cómo se llamaban los trenes de vía estrecha que se usaban para transportar el carbón desde las minas?;La Maquinilla (o trenes mineros);El Tranvía;El Ave;El Metro
+Medio;Puertollano;¿Cómo se llama el proyecto turístico que ha convertido los antiguos trazados de los trenes del carbón en rutas para bicis y senderistas?;Vía Verde del Ojailén (o del Carbón y la Plata);El Camino de Santiago;Ruta 66;Camino del Rey
+Duro;Puertollano;¿De qué comunidad autónoma española provenían muchísimos de los mineros que emigraron a Puertollano en el siglo XX?;Andalucía (y también Asturias);Galicia;Cataluña;Canarias
+Fácil;Puertollano;¿Qué embutido es el protagonista de una fiesta gastronómica muy popular en Puertollano cada 23 de enero?;El chorizo (Día del Chorizo);El jamón;La morcilla;El salchichón
+Medio;Puertollano;¿A qué santo está ligada históricamente la tradición de comer chorizo el 23 de enero en la localidad?;San Ildefonso;San Antón;San Patricio;San José
+Duro;Puertollano;¿A qué período geológico pertenecen los impresionantes fósiles de helechos y animales encontrados en la cuenca de Puertollano?;Carbonífero (Estefaniense);Jurásico;Cámbrico;Cuaternario
+Fácil;Puertollano;¿Qué es lo que principalmente se ha encontrado fosilizado en las antiguas minas de carbón a cielo abierto de Puertollano?;Restos de plantas gigantes (helechos) y peces/anfibios prehistóricos;Huesos de dinosaurios T-Rex;Restos de homínidos;Vasijas romanas
+Medio;Puertollano;¿Con qué figura de protección medioambiental fue declarado el yacimiento paleontológico de Puertollano?;Monumento Natural;Parque Nacional;Reserva de la Biosfera;Bien de Interés Cultural
+Duro;Puertollano;¿Qué animal marino, pariente de los actuales tiburones, habitaba las aguas de Puertollano hace unos 300 millones de años (Xenacanthidae)?;Un tiburón prehistórico de agua dulce/salobre;Un megalodón;Un mosasaurio;Un plesiosaurio
+Fácil;Puertollano;¿Qué estadio de atletismo de la ciudad cuenta con pistas de tartán y acoge competiciones locales?;Estadio Sánchez Menor;Estadio Olímpico de La Mancha;Pista de San Gregorio;Velódromo del Sur
+Medio;Puertollano;¿Qué legendario ex-portero del Real Madrid y de la Selección Española da nombre a uno de los pabellones polideportivos de Puertollano?;Pabellón Santiago Cañizares;Pabellón Iker Casillas;Pabellón Paco Buyo;Pabellón Víctor Valdés
+Duro;Puertollano;¿Qué deporte adaptado cuenta en Puertollano con un equipo histórico que compite a nivel nacional (el BSR Puertollano)?;Baloncesto en silla de ruedas;Rugby en silla de ruedas;Tenis para ciegos;Natación paralímpica
+Fácil;Puertollano;¿De qué inmenso color suelen estar pintados los enormes tanques esféricos de almacenamiento en el complejo petroquímico?;Blancos;Negros;Rojos;Verdes
+Medio;Puertollano;¿Por qué la refinería de Puertollano es única y excepcional en toda España?;Porque es la única refinería española situada en el interior (sin salida al mar);Porque es la más antigua del mundo;Porque solo produce biocombustibles;Porque es subterránea
+Duro;Puertollano;¿A través de qué gran infraestructura llega el petróleo crudo desde la costa andaluza hasta la refinería de Puertollano?;A través de un oleoducto;En trenes de mercancías;En camiones cisterna;A través del río Guadalquivir
+Fácil;Puertollano;¿Qué medio de transporte público urbano gestionado por autobuses grises y rojos conecta los barrios de la ciudad?;Aibus (autobuses urbanos);Metro Ligero;Tranvía minero;Funicular
+Medio;Puertollano;¿Dónde se sitúa la comisaría de la Policía Nacional en Puertollano?;En la calle Cruces;En la cima del Cerro Santa Ana;Dentro de la Refinería;En el poblado de Asdrúbal
+Duro;Puertollano;¿Qué asociación de empresarios representa los intereses de la comarca de Puertollano?;FEPU (Federación de Empresarios de Puertollano);CEOE Nacional;Cámara de Comercio de Madrid;Sindicato Vertical Minero
+Fácil;Puertollano;¿Qué instalación municipal acoge el préstamo de miles de libros de manera gratuita para todos los ciudadanos?;La Biblioteca Municipal;El Museo del Carbón;El Registro de la Propiedad;El Conservatorio
+Medio;Puertollano;¿Qué ocurre actualmente con el inmenso hueco que dejó la Mina Emma (minería del carbón a cielo abierto)?;Ha sido restaurado medioambientalmente con un gran lago y reforestación;Sigue siendo un pozo negro abandonado;Se ha convertido en un centro comercial;Se usa como vertedero nuclear
+Duro;Puertollano;¿En qué año se fundó la histórica Empresa Nacional Calvo Sotelo (ENCASO) para obtener lubricantes de las pizarras de Puertollano?;En 1942 (durante la autarquía);En 1920;En 1975;En 1999
+Fácil;Puertollano;¿Cómo son los veranos meteorológicamente hablando en Puertollano?;Muy calurosos y secos;Fríos y lluviosos;Templados y húmedos;Frescos con nevadas ocasionales
+Medio;Puertollano;¿Qué relieve frena la influencia marítima y hace que Puertollano tenga un clima continentalizado?;Los sistemas montañosos que la rodean (Sierra Morena / Montes de Toledo);No hay montañas, es totalmente llano;Los glaciares pirenaicos;El océano Atlántico
+Duro;Puertollano;¿Cómo se llama el tipo de relieve que forman las sierras de Puertollano, compuesto de crestas de cuarcita y valles de pizarra?;Relieve apalachense;Relieve cárstico;Relieve glaciar;Relieve volcánico
+Fácil;Puertollano;¿Qué barrio del sur de la ciudad suele ser el punto de partida hacia el Complejo Petroquímico y alberga a muchos trabajadores?;El Poblado;El Villar;Tirteafuera;Las Pocitas
+Medio;Puertollano;¿Cómo se llamaban antiguamente a los vendedores ambulantes que llegaban a la ciudad coincidiendo con la fiebre minera?;Buhoneros o recoveros;Corsarios;Templarios;Mineros de plata
+Duro;Puertollano;¿Qué emotiva escultura de bronce en el Paseo de San Gregorio rinde homenaje a las familias que perdieron a alguien en la mina?;El Monumento a las Viudas y Huérfanos;El Monumento a los Caídos;El Arco del Triunfo;La Fuente del Dolor
+Fácil;Puertollano;¿Es Puertollano una de las ciudades con más radiación solar de España (lo que favorece las plantas solares)?;Sí, tiene muchas horas de sol al año;No, casi siempre está nublado;Tiene las mismas que el norte de España;La contaminación tapa el sol siempre
+Medio;Puertollano;¿Qué universidad cuenta con un centro asociado en Puertollano facilitando la educación superior a distancia?;La UNED;La Universidad Complutense;La Universidad de Oxford;La Universidad de Navarra
+Duro;Puertollano;¿Qué gran multinacional absorbió a ENCASUR y a la antigua refinería para formar el complejo actual de Puertollano?;Repsol (y antiguas marcas como EMP; Enpetrol);Iberdrola;BP (British Petroleum)
+Fácil;Puertollano;"¿Dónde se instalan normalmente las grandes atracciones de feria (""los cacharritos"") y casetas en mayo y septiembre?";En el Recinto Ferial;En la Plaza del Ayuntamiento;Dentro del campo de fútbol;En el interior de la Dehesa Boyal
+Medio;Puertollano;¿Qué festival musical local, centrado en ritmos afroamericanos y síncopas, tiene gran arraigo en la ciudad?;El Festival de Jazz de Puertollano (Puertojazz/etc.);El Festival de Reggaeton;Tomorrowland;El FIB de Benicàssim
+Duro;Puertollano;¿Qué famosa Agrupación Folklórica de Puertollano se dedica a preservar y mostrar los bailes y jotas manchegas tradicionales?;La Agrupación Folklórica Fuente Agria (o Virgen de Gracia);Los Coros y Danzas de Madrid;La Rondalla del Mar;La Cuadrilla Gitana
+Fácil;Puertollano;¿Cómo se llama la carretera principal autonómica que une Puertollano con Ciudad Real capital en unos 30-40 minutos?;La A-41 (Autovía Ciudad Real-Puertollano);La Ruta 66;La M-30;La AP-7
+Medio;Puertollano;¿Qué otra provincia castellano-manchega se puede alcanzar relativamente rápido viajando hacia el noreste desde Puertollano por autovía/nacional?;Toledo;Almería;Huelva;Cáceres
+Duro;Puertollano;¿Qué antigua central eléctrica térmica, famosa por su altísima chimenea, era gestionada por Viesgo/E.ON antes de su cierre?;La Central Térmica de Puertollano (Viesgo/Enel);La Central de Trillo;La Central de As Pontes;La Central de Carboneras
+Fácil;Puertollano;"¿Qué gas limpio y renovable, cuyo símbolo químico es la ""H"", se pretende producir masivamente ahora en Puertollano?";El Hidrógeno verde;El Helio;El Metano;El Ozono
+Medio;Puertollano;¿Qué tipo de matorral muy aromático y pegajoso abunda en los cerros que rodean a Puertollano?;La Jara;El Cactus;El Bambú;El Helecho tropical
+Duro;Puertollano;¿En la época romana, la actual zona de Puertollano servía de zona de paso y explotación minera relacionada con qué gran ciudad vecina?;Sisapo (La Bienvenida);Tarraco;Emerita Augusta;Toletum
+Fácil;Puertollano;¿Qué edificio acoge el salón de plenos donde se reúne la corporación municipal de Puertollano?;El Ayuntamiento;El Teatro Pedro Almodóvar;La Parroquia de la Asunción;El Centro de Especialidades
+Medio;Puertollano;¿Cómo se llama la piscina cubierta municipal más importante de Puertollano donde se realizan competiciones de natación?;Piscina Modesto Eiroa (o Piscina del Complejo María Luisa Cabañero);Piscina Olímpica de Montjuïc;Piscina M86;Piscina del Paseo
+Duro;Puertollano;¿Qué nadadora nacida en Puertollano fue la primera española en cruzar a nado el Estrecho de Gibraltar en 1990?;María Luisa Cabañero;Mireia Belmonte;Teresa Perales;Ona Carbonell
+Fácil;Puertollano;¿Hay guarderías y colegios públicos de educación infantil y primaria en Puertollano?;Sí, numerosos colegios en todos los barrios;No, solo hay institutos;Solo hay universidades;Solo hay colegios privados
+Medio;Puertollano;¿Cómo se llama el centro integrado de Formación Profesional que destaca en Puertollano por sus ramas industriales?;CIFP Virgen de Gracia;Instituto Cervantes;Politécnico de Milán;Universidad Laboral
+Duro;Puertollano;¿Qué barrio periférico de Puertollano sufrió grandes daños durante una trágica riada en el siglo XX?;El barrio de Santa Ana / Zonas bajas junto al río o arroyos;El Poblado;La Dehesa Boyal;El Cerro de San Sebastián
+Fácil;Puertollano;¿Qué gran ave planeadora, que se alimenta de animales muertos, es muy común observar volando cerca de la Dehesa Boyal?;El Buitre leonado / negro;El Pingüino;El Colibrí;El Pavo real
+Medio;Puertollano;¿Cómo se llama la red europea de espacios naturales protegidos de la que forman parte algunas sierras de la zona?;Red Natura 2000;Red Greenpeace;Red WWF;Red de Parques Urbanos
+Duro;Puertollano;¿En qué fecha se celebra la popular festividad de San Antón, donde tradicionalmente se bendicen a las mascotas en Puertollano?;El 17 de enero;El 25 de diciembre;El 15 de agosto;El 12 de octubre
+Fácil;Puertollano;¿Qué servicio usan muchas personas en Puertollano para ir a Madrid cada día a trabajar gracias a su rapidez?;El bono del tren Avant (AVE);El autobús urbano Aibus;Ir en bicicleta;Ir en helicóptero privado
+Medio;Puertollano;¿Tiene Puertollano salas de cine actualmente para ver películas de estreno?;Sí, los Multicines (Cines Ortega/Multiplex);No, cerraron todos;Solo hay teatro de títeres;Se proyectan en la iglesia
+Duro;Puertollano;¿Qué nombre coloquial recibe la campana principal de la Iglesia de Nuestra Señora de la Asunción, famosa por su tamaño?;La Gorda;La Minera;La Calatrava;La Santa
+Fácil;Puertollano;¿De qué trabajaban mayoritariamente los hombres del pueblo entre 1880 y 1970?;De mineros;De pescadores;De oficinistas de banco;De informáticos
+Medio;Puertollano;¿Qué mineral precioso NO se ha encontrado nunca de forma comercial en Puertollano?;Oro;Carbón;Plomo;Pizarras bituminosas
+Duro;Puertollano;¿Qué pequeña ermita dedicada al Cristo de las Maravillas se encuentra en el núcleo urbano de Puertollano?;Ermita de la Soledad;Ermita de San Isidro;Ermita de Covadonga;Ermita de la Macarena
+Fácil;Puertollano;¿Abre el pequeño comercio (las tiendas del centro) normalmente los domingos en Puertollano?;No, suelen descansar;Sí, abren las 24 horas;Solo abren las zapaterías;Solo abren en enero
+Medio;Puertollano;¿Existe algún centro comercial o gran superficie con tiendas y supermercados a las afueras del núcleo urbano?;Sí (ej. Centro Comercial Carrefour/Parque Comercial);No, no hay supermercados grandes;Solo hay tiendas de ultramarinos;Están construyendo el primero en España
+Duro;Puertollano;¿Qué pico o elevación, visible desde la ciudad, alberga unas grandes antenas de telecomunicaciones?;El Cerro de Santa Ana (o repetidores cercanos);El Peñón de Ifach;El Teide;El Naranjo de Bulnes
+Fácil;Puertollano;¿Hay en Puertollano algún museo dedicado a la historia del carbón y de los mineros?;Sí, el Museo de la Minería;No, el Ayuntamiento no quiso;Hay uno, pero de sal;Solo de pintura contemporánea
+Medio;Puertollano;¿En qué edificio público se instalaron temporalmente unas termas durante el siglo XIX para curar enfermedades de la piel?;En la Casa de Baños;En el Ayuntamiento;En el Auditorio Municipal;En el Estadio de Fútbol
+Duro;Puertollano;¿Cómo se denominaban los poblados de chabolas y cuevas de extrema pobreza que surgieron en las faldas de los cerros durante el boom minero?;Barrios de la periferia minera (Las Cuevas/Cerros de Santa Ana y San Sebastián);Ciudades Jardín;Ensanche burgués;Poblado de directivos
+Fácil;Puertollano;¿Es posible ir caminando desde el centro de la ciudad hasta plena naturaleza en menos de 30 minutos?;Sí, a través del Parque del Pozo Norte o los cerros;No, la ciudad es demasiado inmensa;No, hay muros que lo impiden;Solo si vas en coche
+Medio;Puertollano;¿Qué autovía de gran capacidad cruza transversalmente el sur de Ciudad Real pasando muy cerca de Puertollano hacia Extremadura/Levante?;La A-43;La A-6;La AP-9;La M-40
+Duro;Puertollano;¿Qué planta solar experimental, pionera en España, está instalada en las afueras y concentra la luz solar mediante lentes?;La planta fotovoltaica de concentración del ISFOC;La central térmica de ciclo combinado;Un reactor de fusión nuclear;Una granja eólica marina
+Fácil;Puertollano;¿Qué actividad típica de fin de semana realizan los jóvenes acudiendo a locales privados acondicionados por ellos mismos?;"Estar en ""las peñas"" o locales de amigos";Ir a pescar salmones;Bañarse en la fuente del pueblo;Estudiar en la plaza
+Medio;Puertollano;"¿Se celebran en Puertollano pruebas de ""Trail"" o carreras por montaña corriendo?";Sí, debido a los cerros y la Dehesa Boyal (ej. Puertollano Trail);No, es terreno plano;Solo carreras de caballos;Está prohibido correr
+Duro;Puertollano;¿Quién fue Juan de Távora, figura que da nombre a un Instituto y a calles locales?;El fundador histórico u originario ligado al Santo Voto (o Comendador local);El primer alcalde de la democracia;Un rey visigodo;Un famoso actor de Hollywood
+Fácil;Puertollano;¿Qué popular legumbre es básica para hacer un buen cocido manchego o ropa vieja en los hogares locales?;Los garbanzos;Las lentejas;Las alubias pintas;La soja
+Medio;Puertollano;¿Qué oficina ayuda a los visitantes a encontrar hoteles, mapas y rutas en Puertollano?;La Oficina de Turismo (en la Casa de Baños);La comisaría de policía;El Registro Civil;La oficina de correos
+Duro;Puertollano;¿Qué destacada alcaldesa gobernó Puertollano durante varios años en la década de 2010, siendo una de las primeras mujeres en el cargo?;Mayte Fernández;Esperanza Aguirre;Manuela Carmena;Rita Barberá
+Fácil;Puertollano;¿Hay un cuerpo de bomberos preparado para actuar en emergencias químicas además de incendios normales?;Sí, el parque de bomberos está altamente especializado;No, vienen de Madrid;Solo apagan incendios de campo;Usan cubos de agua
+Medio;Puertollano;"¿Qué antigua empresa eléctrica fue propietaria de la famosa central térmica conocida localmente como ""La Sevillana""?";Compañía Sevillana de Electricidad;Endesa;Iberdrola;Gas Natural Fenosa
+Duro;Puertollano;¿Qué antigua chimenea industrial fue conservada y hoy es un elemento decorativo junto a La Central y el ferial?;La chimenea de la antigua fábrica de briquetas/Sevillana;El Faro de Alejandría;La torre de un castillo templario;Un silo de misiles nucleares
+Fácil;Puertollano;¿Existen coros y bandas de música integradas por ciudadanos de Puertollano?;Sí, hay una gran tradición musical y de coros;No, la música está prohibida;Solo de música electrónica;Vienen de fuera para tocar
+Medio;Puertollano;¿Qué mamífero ungulado (salvaje) es muy codiciado por los cazadores en las sierras del sur de Puertollano?;El ciervo (o jabalí);El tigre ibérico;El oso pardo;La gacela
+Duro;Puertollano;¿En qué fecha ocurrió la trágica explosión de la refinería (Enpetrol) que marcó profundamente a la población local?;En agosto de 2003;En enero de 1980;En diciembre de 1958;En mayo de 2015
+Fácil;Puertollano;¿A pesar de la industria y la historia, hay agricultura en los alrededores del municipio?;Sí, hay cultivos de olivo y cereales;No, la tierra es solo para carbón;Solo cultivan frutas tropicales;Es todo bosque amazónico
+Fácil;Almodóvar del Campo;¿Qué tipo de relieve predomina en la mayor parte del término de Almodóvar?;Valle y Sierra ;Desierto arenoso;Llanura costera;Selva tropical
+Medio;Almodóvar del Campo;¿Cuántas pedanías o aldeas dependen administrativamente de Almodóvar del Campo?;10 pedanías;2 pedanías;5 pedanías;Ninguna
+Duro;Almodóvar del Campo;¿Cuál es la extensión aproximada del término municipal de Almodóvar en km2?;Unos 1.200 km2;50 km2;500 km2;600 km2
+Medio;Almodóvar del Campo;¿Qué nombre recibe el instituto público de educación secundaria del municipio?;IES San Juan Bautista de la Concepción;IES El Minero;IES Valle de Alcudia;IES Cervantes
+Duro;Almodóvar del Campo;¿Qué importante yacimiento arqueológico de la Edad del Bronce se encuentra en el Valle de Alcudia?;El Quintillo;La Mancha;Atapuerca;Numancia
+Fácil;Almodóvar del Campo;¿Cómo se llama el edificio donde se gestionan los impuestos y servicios municipales?;Ayuntamiento;Palacio del Duque;Jardín Municipal;Edificio del Mercado
+Medio;Almodóvar del Campo;¿Qué cereal es el más cultivado en las zonas de labranza de Almodóvar?;Cebada y Trigo;Arroz;Maíz;Caña de azúcar
+Duro;Almodóvar del Campo;¿Cuál es la altitud media sobre el nivel del mar del núcleo urbano de Almodóvar?;656 metros;100 metros;1.500 metros;300 metros
+Fácil;Almodóvar del Campo;¿En qué sector trabaja la mayoría de la población rural del municipio?;Agricultura y Ganadería;Pesca;Minería de oro;Turismo de nieve
+Medio;Almodóvar del Campo;"¿Qué santo local es conocido como el ""Reformador de los Trinitarios""?";San Juan Bautista de la Concepción;San Juan de Dios;San Judas Tadeo;San Lucas
+Duro;Almodóvar del Campo;¿Cómo se llama el volcán extinguido que se encuentra en la zona de La Bienvenida?;Volcán de los Castillejos;Volcán del Estudero;Volcán de la Encomienda;Volcán del Sisapero
+Fácil;Almodóvar del Campo;¿Qué animal es el emblema de la ganadería extensiva del Valle de Alcudia?;La oveja;La vaca ;El Cerdo;El Conejo
+Medio;Almodóvar del Campo;¿Qué tipo de clima tiene Almodóvar del Campo?;Mediterráneo continentalizado;Clima tropical;Clima oceánico;Clima polar
+Fácil;Almodóvar del Campo;¿Cómo se llama la plaza donde se celebran los eventos principales del pueblo?;Plaza Mayor;Plaza de España;Plaza Roja;Plaza de la Paz
+Medio;Almodóvar del Campo;¿Qué río pasa cerca de la pedanía de Tirteafuera?;Río Tirteafuera;Río Miro;Río Mito;Río Milo
+Duro;Almodóvar del Campo;¿Qué cueva de la zona es famosa por sus pinturas rupestres de tipo esquemático?;Cueva de la Venta de la Inés;Cueva de Nerja;Cueva del Soplao;Cueva de Altamira
+Fácil;Almodóvar del Campo;¿Qué tipo de árbol produce las bellotas que come el ganado en la dehesa?;Encina;Pino;Palmera;Eucalipto
+Medio;Almodóvar del Campo;¿Cuál es el gentilicio oficial de Almodóvar del Campo?;Almodovareño;Almodovense;Almodovari;Campoalmodovense
+Duro;Almodóvar del Campo;¿En qué siglo se fundó la Cofradía de los Santos de Almodóvar?;Siglo XVII;Siglo XII;Siglo XX;Siglo XXI
+Fácil;Almodóvar del Campo;¿Qué producto derivado de la aceituna se produce en las cooperativas locales?;Aceite de Oliva;Vino blanco;Cerveza;Zumo de naranja
+Medio;Almodóvar del Campo;¿Qué carretera nacional conecta el municipio con el sur de la península?;N-420;A-1;AP-7;A-6
+Duro;Almodóvar del Campo;¿Nombre de un puerto de montaña de Almodóvar?;Puerto de Niefla;Puerto de Navacerrada;Puerto de Somosierra;Puerto del Escudo
+Fácil;Almodóvar del Campo;¿En qué fecha aproximada se celebran los famosos encierros?;Mediados de septiembre;En Navidad;En Semana Santa;Todo el mes de agosto
+Duro;Almodóvar del Campo;¿Qué arquitecto o maestro diseñó el artesonado de la Iglesia de la Asunción?;Es anónimo de tradición mudéjar;Gaudí;Juan de Herrera;Eiffel
+Fácil;Almodóvar del Campo;¿Qué actividad se puede realizar en las rutas del Valle de Alcudia?;Senderismo;Esquí;Surf;Buceo
+Medio;Almodóvar del Campo;¿Cómo se llama la pedanía que está más al sur, casi en Andalucía?;San Benito;La Bienvenida;Fontanosas;Veredas
+Duro;Almodóvar del Campo;¿Qué población tenía Almodóvar del Campo en su época de máximo esplendor demográfico?;Cerca de 15.000 habitantes;5.000 habitantes;50.000 habitantes;1.000 habitantes
+Medio;Almodóvar del Campo;¿Qué ave rapaz protegida anida en las rocas de Sierra Madrona?;Águila Imperial;Pingüino;Avestruz;Loro
+Duro;Almodóvar del Campo;¿Qué industria existió en Almodóvar relacionada con el ferrocarril de vía estrecha?;Minería y transporte de mineral;Fábrica de aviones;Puerto seco;Astillero
+Fácil;Almodóvar del Campo;¿Qué se puede visitar en la Casa Natal de San Juan de Ávila?;Cueva;Ahora es un cine;Un monumento;Un mural
+Medio;Almodóvar del Campo;¿De qué Orden Militar era el Comendador que gobernaba la zona?;Orden de Calatrava;Orden de Malta;Legión Extranjera;Orden del Sol
+Duro;Almodóvar del Campo;¿Qué nombre recibe la zona húmeda estacional que aparece en el Valle de Alcudia formada por volcanes?;Maares;Glaciar;Oasis;Fiordo
+Fácil;Almodóvar del Campo;¿Cómo es el terreno del Valle de Alcudia?;Dehesa con pastizales;Jungla;Desierto de dunas;Tundra
+Duro;Almodóvar del Campo;¿Cuál es la distancia aproximada entre Almodóvar y Ciudad Real capital?;Unos 40 km;10 km;200 km;500 km
+Medio;Almodóvar del Campo;¿Qué pedanía de Almodóvar es famosa por sus aguas y balnearios antiguos?;Fontanosas;Tirteafuera;La Bienvenida;San Benito
+Duro;Almodóvar del Campo;¿Qué mineral se buscaba en las minas de San Quintín, cerca de Almodóvar?;Plomo y Cinc;Oro;Diamantes;Uranio
+Medio;Almodóvar del Campo;¿Qué Entidad gestiona el desarrollo del Valle de Alcudia?;Asociación Desarrollo Sostenible Valle de Alcudia;Federación de Ayuda al Valle de Alcudia;Mancomudidad de Servicios Alcudia;Asociación de Municipios de Alcudia
+Fácil;Almodóvar del Campo;¿Qué embutido se suele comer en las matanzas tradicionales?;Chorizo y Morcilla;Sobrasada;Chorizo de Ciervo;Morcilla de Burgos
+Medio;Almodóvar del Campo;¿A qué partido judicial pertenece Almodóvar del Campo?;Puertollano;Madrid;Ciudad Real;Almagro
+Duro;Almodóvar del Campo;¿Quién fue el primer alcalde de la democracia en Almodóvar?;Manuel Sendarrubias;Pedro Almodóvar;Juan Primero;Felipe González
+Fácil;Almodóvar del Campo;¿Qué se celebra en la Romería de San Isidro?;La fiesta de los agricultores;El fin de año;La llegada del hombre a la luna;La independencia
+Medio;Almodóvar del Campo;¿Qué tipo de piedra se usa en las construcciones tradicionales de las aldeas?;Cuarcita y pizarra;Mármol de Carrara;Adobe de paja;Ladrillo visto moderno
+Duro;Almodóvar del Campo;¿Qué nombre recibe un desfile de las fiestas de septiembre?;El Desfile de Carrozas;Desfile de Reinas y Reyes;Desfile de coches antigüos;Desfile carrera de coches locos
+Fácil;Almodóvar del Campo;¿Cómo se llama la calle principal que atraviesa el pueblo?;Calle Corredera;Calle Nueva York;Paseo de la Castellana;Calle Estrecha
+Medio;Almodóvar del Campo;¿Qué animal salvaje es el mayor peligro para los cultivos en Almodóvar?;El Jabalí;El León;El Elefante;El Lobo (aunque es escaso)
+Duro;Almodóvar del Campo;¿En qué año se inauguró el actual Teatro Municipal?;A finales del s. XX;En 1800;En 1950;En 2020
+Fácil;Almodóvar del Campo;¿Cuál es el postre más típico de las abuelas en Almodóvar?;Enceitados y flores;Tarta de queso industrial;Helado de fresa;Donuts
+Medio;Almodóvar del Campo;¿Qué planta se usa para hacer los cestos tradicionales en el pueblo?;Mimbre o Esparto;Plástico;Alambre;Lana
+Fácil;Almodóvar del Campo;¿Dónde se guardan los pasos de Semana Santa durante todo el año excepto en Semana Santa ?;Local Guardapasos;En la Iglesia Parroquial;En el teatro;En las casas particulare
+Medio;Almodóvar del Campo;¿Qué tipo de ganado ha crecido en número últimamente en el municipio?;Ganado Vacuno ;Camellos;Renos;Avestruces de granja
+Duro;Almodóvar del Campo;¿Qué pedanía de Almodóvar tiene un puente de origen medieval sobre el río?;Tirteafuera;Retamar;Viñuela;Veredas
+Fácil;Almodóvar del Campo;"¿Qué se hace en las ""peñas"" durante las fiestas?";Reunirse con amigos a comer y beber;Dormir todo el día;Hacer exámenes;Ir a misa solo
+Medio;Almodóvar del Campo;¿Qué insecto es fundamental para la polinización en el Valle de Alcudia?;La Abeja;La Mosca;El Mosquito;La Langosta
+Duro;Almodóvar del Campo;¿Qué título ostenta la Iglesia de Nuestra Señora de la Asunción?;Monumento Histórico Artístico;Catedral de la Mancha;Basílica Menor;Simple Ermita
+Fácil;Almodóvar del Campo;¿Qué tiempo hace en invierno en Almodóvar?;Frío y con escarchas;Calor extremo;Humedad tropical;Siempre nieva 1 metros
+Medio;Almodóvar del Campo;"¿Qué árbol frutal abunda en los ""Huertos"" de Almodóvar?";El Olivo;Naranjo;El Manzano de sidra;La Piña
+Duro;Almodóvar del Campo;¿Qué nombre recibe el Camino Real que cruzaba el Valle de Alcudia?;Camino Real de la Plata / de Toledo a Córdoba;Ruta de la Seda;M-30;Camino de Santiago Sur
+Fácil;Almodóvar del Campo;¿Hay estación de tren activa dentro del pueblo de Almodóvar?;No;Sí;Solo para el AVE;Solo para el metro
+Medio;Almodóvar del Campo;¿Qué hortaliza es famosa en las huertas de la pedanía de Tirteafuera?;El Tomate y el Pimiento;El Plátano;La Naranja;El Kiwi
+Duro;Almodóvar del Campo;¿Cómo se llama la asociación de mujeres de Almodóvar?;Asociación de Amas de Casa;Club de Fans de San Juan;Mujeres de Alcudia;Las Carmelas
+Fácil;Almodóvar del Campo;¿Se pueden ver estrellas con claridad en el Valle de Alcudia?;Sí, es zona Starlight;No, hay mucha contaminación por cercanía a Puertollano;Solo si usas un radar;No hay estrellas allí
+Medio;Almodóvar del Campo;¿Qué material se extraía en la pedanía de Minas del Horcajo?;Plata y Plomo;Petróleo;Diamantes;Carbón
+Duro;Almodóvar del Campo;¿Qué cueva famosa por su leyenda de bandoleros está en el Valle?;Cueva del Bandolero Juan Palomo;Cueva de Alí Babá;Cueva de los Siete Palacios;Cueva de la Mora
+Medio;Almodóvar del Campo;¿Cómo se llama la revista cultural anual que se publica en Almodóvar?;Programa de las Fiestas ;Almodóvar News;Hola;Marca
+Duro;Almodóvar del Campo;¿Qué comunidad de monjas tiene su convento en el pueblo?;Jerónimas;Carmelitas ;Clarisas;Dominicas
+Fácil;Almodóvar del Campo;¿Qué se hace en la plaza de toros durante las fiestas?;Corridas de toros y concursos;Partidos de tenis;Exposiciones de barcos;Conciertos de ópera solo
+Medio;Almodóvar del Campo;¿Qué nombre recibe la zona de monte bajo con matorrales en Almodóvar?;Mancha o Garriga;Pradera;Selva;Desierto
+Duro;Almodóvar del Campo;¿Quién es el actual alcalde de Almodóvar del Campo (década 2020)?;José Lozano;Pedro Sánchez;Emiliano García-Page;Mariano Rajoy
+Medio;Almodóvar del Campo;¿Qué estilo tiene la portada de la Iglesia de la Asunción?;Renacentista;Egipcio;Futurista;Maya
+Fácil;Almodóvar del Campo;¿A qué hora suelen empezar los encierros de Almodóvar?;Por la tarde (normalmente 13:00 o 14:00);A medianoche;A las 5 de la mañana;No tienen hora
+Medio;Almodóvar del Campo;¿Qué tipo de queso se hace en las fincas del Valle de Alcudia?;Queso de oveja merina;Queso de vaca suiza;Queso de untar;Queso de cabra francés
+Duro;Almodóvar del Campo;¿En qué pedanía se celebra la festividad de San Pantaleón?; San Benito;La Bienvenida;Fontanosas;Veredas
+Medio;Almodóvar del Campo;¿Cómo se llaman un cerro famoso cercano al casco urbano?;Cerro de Santa Brígida;Cerro de los Alpes;Cerro del Everest;Cerro del Águila
+Medio;Almodóvar del Campo;"¿Qué se suele comprar en la ""Feria de Ganado"" antigua?";Animales y aperos;Coches de lujo;Ordenadores;Ropa de marca
+Duro;Almodóvar del Campo;¿De qué año data el primer documento que menciona a Almodóvar?;Siglo VIII (época musulmana);Año 2000;Siglo XX;Época de los dinosaurios
+Fácil;Almodóvar del Campo;¿Dónde se ponen los puestos del mercadillo?;En el recinto ferial o calles anexas;En el tejado;En el campo;En el río
+Medio;Almodóvar del Campo;¿Qué santo es el patrón del clero español y nació en Almodóvar?;San Juan de Ávila;San Antonio;San Francisco;San Pedro
+Fácil;Almodóvar del Campo;"¿Qué hacen los niños en la ""Cuerda de los toros""?";Correr delante de carretones;Bailar ballet;Hacer los deberes;Dormir la siesta
+Medio;Almodóvar del Campo;¿Qué árbol protege las calles del Paseo?;Plátanos de sombra ;Pinos;Encinas;Cactus
+Medio;Almodóvar del Campo;¿Cómo se llama la asociación taurina del pueblo?;"Club Taurino ""Almodóvar""";Peña del Real Madrid;Asociación de Ajedrez;Fans de los Gatos
+Duro;Almodóvar del Campo;¿En qué año se fundó el convento de las Jerónimas (ya cerrado)?;Siglo XVI;Siglo XXI;Año 100;Año 2010
+Medio;Almodóvar del Campo;¿Qué pájaro de color azul y muy ruidoso es típico del Valle?;Rabilargo;Canario;Avestruz;Pingüino
+Duro;Almodóvar del Campo;¿Cuál es la distancia entre la pedanía de Minas del Horcajo y el pueblo?;Unos 45 km ;5 km;1 km;500 metros
+Fácil;Almodóvar del Campo;¿Te gusta vivir o visitar Almodóvar?;¡Sí!;No;No sé;¿Qué es Almodóvar?
