@@ -137,6 +137,14 @@ export const PROJECTS: Project[] = [
 
   // SECCIÓN TÉCNICA / OTROS
   {
+    id: 18,
+    name: "Ga-Gen Key",
+    url: "https://generadorkey.vercel.app/",
+    image: "https://raw.githubusercontent.com/gabrielsantosgrillo-dot/JuegosCartas/main/genkey/keygen.jpg",
+    desc: "permite generar claves secretas JWT (HS256, HS384, HS512) de forma 100% local y privada mediante el uso de la API criptográfica nativa del navegador (window.crypto)",
+    tech: ",Privacy",
+    category: ProjectCategory.TECHNICAL
+  },  {
     id: 14,
     name: "Ga-Archivos",
     url: "https://controlarchivos.vercel.app/",
