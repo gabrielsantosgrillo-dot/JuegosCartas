@@ -276,7 +276,7 @@ Ubicación: Calle San Antón, 2, 13580 Almodóvar del Campo, Ciudad Real.
 Visitas: Al igual que otras ermitas menores, suele estar abierta principalmente durante los días cercanos a su festividad (enero) o en momentos de culto programados por su hermandad. No obstante, merece la pena acercarse para ver su estampa típica manchega desde el exterior.
 
 Es una parada sencilla pero imprescindible si quieres conocer el lado más auténtico y popular de la vida en Almodóvar del Campo."
-11;Ermita de Santa Brígida;Cultura;Mirador;38.69359226166458, -4.182998428679606;Ermita en el cerro del mismo nombre. Ofrece las mejores vistas panorámicas de la ciudad y el atardecer.;Cerro de Santa Brígida;Libre (Exterior);Gratis;45;;null;https://lh3.googleusercontent.com/gps-cs-s/AHVAweoJ3dytg33Ny5G7iZG17HFfb9MVwsDyinPCJcKlnT5bL1YhD6p0gbvnXpOa1Qiq5XAEV7Es4XML1vp33C58EnZQn-FrywKVnv75muHVnWX7ET42Sc7s5C_zhZ0jv1jAPlRlHAsW=w408-h306-k-no;null;Baja;Sí;Sí;ermita, mirador, vistas, senderismo;48;"La Ermita de Santa Brígida es, posiblemente, el mirador más espectacular de Almodóvar del Campo y un lugar de gran carga simbólica para sus habitantes.
+11;Ermita de Santa Brígida;Cultura;Religioso;38.69359226166458, -4.182998428679606;Ermita en el cerro del mismo nombre. Ofrece las mejores vistas panorámicas de la ciudad y el atardecer.;Cerro de Santa Brígida;Libre (Exterior);Gratis;45;;null;https://lh3.googleusercontent.com/gps-cs-s/AHVAweoJ3dytg33Ny5G7iZG17HFfb9MVwsDyinPCJcKlnT5bL1YhD6p0gbvnXpOa1Qiq5XAEV7Es4XML1vp33C58EnZQn-FrywKVnv75muHVnWX7ET42Sc7s5C_zhZ0jv1jAPlRlHAsW=w408-h306-k-no;null;Baja;Sí;Sí;ermita, mirador, vistas, senderismo;48;"La Ermita de Santa Brígida es, posiblemente, el mirador más espectacular de Almodóvar del Campo y un lugar de gran carga simbólica para sus habitantes.
 
 Aquí tienes la información detallada sobre este enclave:
 
@@ -551,5 +551,5 @@ Llama la atención por su refinado estilo modernista, donde destaca su proporcio
 26;Ermita San Sebastián;Arquitectura;Religioso;38.707609657800226, -4.190291762351991;Ermita ;;Libre (Exterior);Gratis;30;0;;https://www.almodovardelcampo.es/wp-content/uploads/2018/01/A-la-llegada-a-la-ermita.jpg;null;Media;No;Sí;iglesia, historia;47;0
 27;Ermita San José;Arquitectura;Religioso;38.71242337166028, -4.185169026335048;Ermita;;Libre (Exterior);Gratis;30;0;;https://www.almodovardelcampo.es/wp-content/uploads/2026/02/Ermita-San-Jose.jpg;null;Media;No;Sí;iglesia, historia;47;0
 28;Ermita San Isidro;Arquitectura;Religioso;38.722898130793205, -4.174595782173283;Ermita;;Libre (Exterior);Gratis;30;0;;https://www.almodovardelcampo.es/wp-content/uploads/2024/08/Mobiliario-habilitado-en-el-entorno-de-la-ermita-de-san-Isidro.jpg;null;Media;No;Sí;iglesia, historia;47;0
-29;Oficina Turismo;Cultura;Información;38.709853, -4.178002;Oficina de Información Turismo;Plaza Constitución (Mercado);Planta 1ª;Gratis;;;;;;;;;;;
+29;Oficina Turismo;Cultura;información;38.709853, -4.178002;Oficina de Información Turismo;Plaza Constitución (Mercado);Planta 1ª;Gratis;;;;;;;;;;;
 30;Parking Huertas;Parking;Parking;38.708274, -4.177811;Parking;Calle Huertas;24 horas;Gratis;;;;;;;;;;;
