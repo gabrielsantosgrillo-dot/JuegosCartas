@@ -136,8 +136,16 @@ export const PROJECTS: Project[] = [
   },
 
   // SECCIÓN TÉCNICA / OTROS
-  {
-    id: 18,
+ {
+    id: 20,
+    name: "GA-QR",
+    url: "https://crearqr.vercel.app/",
+    image: "https://raw.githubusercontent.com/gabrielsantosgrillo-dot/JuegosCartas/main/qr/qr.png",
+    desc: "Crea y personaliza códigos QR profesionales. Genera vCards para compartir contactos directamente, diseña tarjetas de presentación visuales, añade logotipos, marcos personalizados y exporta códigos en masa a documentos Word.",
+    tech: "QR",
+    category: ProjectCategory.TECHNICAL
+  }, {
+    id: 19,
     name: "Ga-Gen Key",
     url: "https://generadorkey.vercel.app/",
     image: "https://raw.githubusercontent.com/gabrielsantosgrillo-dot/JuegosCartas/main/genkey/keygen.jpg",
