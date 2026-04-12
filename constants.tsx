@@ -140,7 +140,7 @@ export const PROJECTS: Project[] = [
     id: 20,
     name: "GA-QR",
     url: "https://crearqr.vercel.app/",
-    image: "https://raw.githubusercontent.com/gabrielsantosgrillo-dot/JuegosCartas/main/qr/qr.png",
+    image: "https://raw.githubusercontent.com/gabrielsantosgrillo-dot/JuegosCartas/main/QR/QR.png",
     desc: "Crea y personaliza códigos QR profesionales. Genera vCards para compartir contactos directamente, diseña tarjetas de presentación visuales, añade logotipos, marcos personalizados y exporta códigos en masa a documentos Word.",
     tech: "QR",
     category: ProjectCategory.TECHNICAL
