@@ -144,7 +144,16 @@ export const PROJECTS: Project[] = [
     desc: "Crea y personaliza códigos QR profesionales. Genera vCards para compartir contactos directamente, diseña tarjetas de presentación visuales, añade logotipos, marcos personalizados y exporta códigos en masa a documentos Word.",
     tech: "QR",
     category: ProjectCategory.TECHNICAL
-  }, {
+  },
+  {
+    id: 21,
+    name: "Ga-ExploraCiudad",
+    url: "https://exploraciudad.vercel.app/",
+    image: "https://raw.githubusercontent.com/gabrielsantosgrillo-dot/JuegosCartas/main/exploraciudad/exploraciudad.jpg",
+    desc: "GA-ExploraCiudad se ejecuta íntegramente en el navegador, garantizando la privacidad al persistir los datos y configuraciones únicamente en el localStorage del usuario. Su núcleo interactivo se basa en la librería Leaflet, ofreciendo múltiples capas cartográficas (OpenStreetMap, Esri, Catastro y PNOA Histórico del IGN) sobre las cuales se visualizan Puntos de Interés (POIs) que pueden ser creados manualmente o importados/exportados dinámicamente vía CSV. A nivel funcional, la aplicación integra geolocalización avanzada con modo manual para dispositivos sin GPS, cálculo de rutas peatonales y vehiculares conectándose a servidores OSRM (leaflet-routing-machine)  y enlaces dinámicos a Google Street View, logrando una herramienta turística completa y rápida sin necesidad de una base de datos backend propia.  ",
+    tech: "Mapas Exploración",
+    category: ProjectCategory.GUIA
+  } ,{
     id: 19,
     name: "Ga-Gen Key",
     url: "https://generadorkey.vercel.app/",
@@ -197,5 +206,14 @@ export const PROJECTS: Project[] = [
     desc: "Guía digital educativa diseñada para viajes escolares. Proporciona información interactiva para alumnos.",
     tech: "Educación, Guía Digital",
     category: ProjectCategory.EDUCATIONAL
+  },
+  {
+    id: 5,
+    name: "Turismo en Almodóvar del Campo",
+    url: "https://turismoalmodovar.vercel.app/",
+    image: "https://raw.githubusercontent.com/gabrielsantosgrillo-dot/JuegosCartas/main/turismo/cabecera.jpg",
+    desc: "Esta aplicación es una guía turística interactiva (para la gestión avanzada de mapas y capas espaciales), diseñada bajo una arquitectura de datos dinámicos cuyo motor principal es un único archivo CSV externo. A nivel técnico, el sistema lee y procesa este documento en tiempo real para generar automáticamente toda la interfaz y sus funcionalidades: desde la ubicación de los marcadores y el trazado de rutas GPS, hasta la creación de categorías, textos descriptivos, carruseles de imágenes y enlaces. Esta estructura centralizada funciona como un gestor de contenidos (CMS) no-code, permitiendo que cualquier persona pueda administrar, actualizar y escalar el 100% del contenido de la plataforma de forma remota simplemente editando una hoja de cálculo, reflejándose los cambios al instante en la aplicación sin necesidad de tocar el código fuente ni realizar nuevos despliegues técnicos.",
+    tech: "EGuía Digital",
+    category: ProjectCategory.GUIA
   }
 ];
