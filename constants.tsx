@@ -194,7 +194,7 @@ export const PROJECTS: Project[] = [
     name: "Corrección Exámenes",
     url: "https://testexamen.vercel.app/", "https://demotestdesarrollo.vercel.app",
     image: "https://raw.githubusercontent.com/gabrielsantosgrillo-dot/JuegosCartas/main/proyectos/correccionexamenes.jpg",
-    desc: "Sistema integral de corrección de exámenes tipo test. Gestión de baremos complejos y generación de PDFs.",
+    desc: "Sistema integral de corrección de exámenes tipo test. Versión libre: https://demotestdesarrollo.vercel.app  .Gestión de baremos complejos y generación de PDFs.",
     tech: "PDF Generation, EAN-13",
     category: ProjectCategory.TECHNICAL
   },
